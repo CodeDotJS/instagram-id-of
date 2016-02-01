@@ -22,9 +22,9 @@ $ insta-id-of -u '/user.name'
 
 ```
 
-## Related
+## Related 
 
-	[Insta UserID](http://github.com/)
+	[Instagram UserID](http://github.com/)
 
 ## Screenshot
 
