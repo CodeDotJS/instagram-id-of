@@ -22,10 +22,6 @@ $ insta-id-of -u '/user.name'
 
 ```
 
-## Related 
-
-	[Instagram UserID](http://github.com/)
-
 ## Screenshot
 
 
