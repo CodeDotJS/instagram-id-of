@@ -1,0 +1,44 @@
+{
+  "name": "insta-id-of",
+  "version": "1.0.0",
+  "description": "Shows userid of an instagram user in your console.",
+  "license": "MIT",
+  "repository": "CodeDotJS/instagram-id-of",
+  "author": {
+    "name": "Rishi Giri",
+    "email": "rushforlinux@gmail.com",
+    "url": "rishigiri.com"
+  },
+  "bin": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "terminal",
+    "text",
+    "instagram",
+    "user",
+    "userid"
+  ],
+  "dependencies": {
+    "follow-redirects":"*",
+    "yargs":"*",
+    "fs":"*"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
