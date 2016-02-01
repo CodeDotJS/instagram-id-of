@@ -24,9 +24,7 @@ $ insta-id-of -u '/user.name'
 
 ## Related
 
-```
 	[Insta UserID](http://github.com/)
-```
 
 ## Screenshot
 
