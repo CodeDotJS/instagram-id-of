@@ -1,9 +1,9 @@
-var https = require('follow-redirects').https;
-var fs = require('fs');
-var colors = require('colors');
+const https = require('follow-redirects').https;
+// const fs = require('fs');
+const colors = require('colors');
 
 colors.setTheme({
-    error: ['red', 'bold']
+    error : ['red', 'bold']
 });
 
 colors.setTheme({
@@ -14,12 +14,12 @@ colors.setTheme({
     normal: ['green', 'bold']
 })
 
-var argv = require('yargs')
+const argv = require('yargs')
     .usage('Usage: $0 -u [/user.name]')
     .demand(['u'])
     .argv;
 
-var options = {
+const options = {
     hostname: 'www.instagram.com',
     port: 443,
     path: argv.u,
@@ -33,24 +33,24 @@ var options = {
     }
 };
 
-var req = https.request(options, function(res) {
+const req = https.request(options, function (res) {
     if (res.statusCode === 200) {
-        console.log("\nStatus Code: ".info, "😀".info /*res.statusCode*/ ); // uncomment *res.statusCode to check it in numeric form
+        console.log("\nStatus Code: ".info, "😀".info); // res.statusCode
     } else {
-        console.log("\nStatus Code: ".error, "😥".info /*res.statusCode*/ ); // same
+        console.log("\nStatus Code: ".error, "😥".info);
     }
     var store = "";
 
     res.setEncoding('utf8');
 
-    res.on('data', function(d) {
+    res.on('data', function (d) {
 
         store += d;
 
     });
-    res.on('end', function(d) {
-        var rePattern = new RegExp(/id":"\d*/);
-        var arrMatches = store.match(rePattern);
+    res.on('end', function () {
+        const rePattern = new RegExp(/id":"\d*/);
+        const arrMatches = store.match(rePattern);
 
         if (arrMatches && arrMatches[0]) {
             console.log('\n' + '--------------------------------'.info);
@@ -64,13 +64,9 @@ var req = https.request(options, function(res) {
         } else {
             console.log("\nSorry ".error +
                 argv.u.replace('/', '').toUpperCase().toString().info +
-                " is not an Insta User.".error + '\n');
+                ' is not an Insta User.'.error + '\n');
         }
-
     });
 });
 req.end();
 
-req.on('error', function(e) {
-    console.error(e);
-});
