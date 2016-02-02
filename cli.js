@@ -54,17 +54,17 @@ var req = https.request(options, function(res) {
 
         if (arrMatches && arrMatches[0]) {
             console.log('\n' + '--------------------------------'.info);
-            console.log('| '.info + 
-                        argv.u.replace('/', '').toUpperCase().toString().info + 
-                        "'s Insta ID is ".info + arrMatches[0].replace('id":"', '').toString().normal + 
-                        ' |'.info);
+            console.log('| '.info +
+                argv.u.replace('/', '').toUpperCase().toString().info +
+                "'s Insta ID is ".info + arrMatches[0].replace('id":"', '').toString().normal +
+                ' |'.info);
 
             console.log('--------------------------------'.info + '\n');
 
         } else {
-            console.log("\nSorry ".error + 
-                        argv.u.replace('/', '').toUpperCase().toString().info + 
-                        " is not an Insta User.".error + '\n');
+            console.log("\nSorry ".error +
+                argv.u.replace('/', '').toUpperCase().toString().info +
+                " is not an Insta User.".error + '\n');
         }
 
     });
