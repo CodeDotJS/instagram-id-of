@@ -1,4 +1,4 @@
-var https = require('https');
+var https = require('follow-redirects').https;
 var fs = require('fs');
 
 var options = {
@@ -7,9 +7,9 @@ var options = {
     path: process.argv.slice(2),
     method: 'GET',
     headers: {
-        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'accept': 'text/html,application/json,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36',
-        'Host': 'facebook.com',
+        'Host': 'instagram.com',
         'Connection': 'Keep-Alive',
         'Accept-Language': 'en-GB,en-US;q=0.8,en;q=0.6',
     }
@@ -27,11 +27,11 @@ var req = https.request(options, function(res) {
 
     });
     res.on('end', function(d) {
-        var rePattern = new RegExp(/entity_id":"\d*/);
+        var rePattern = new RegExp(/id":"\d*/);
         var arrMatches = store.match(rePattern);
 
         if (arrMatches && arrMatches[0]) {
-            console.log("User ID: " + arrMatches[0].replace('entity_id":"', ''));
+            console.log("User ID: " + arrMatches[0].replace('id":"', ''));
         }
 
     });
