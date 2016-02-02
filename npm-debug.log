@@ -1,0 +1,2567 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--global',
+1 verbose cli   'insta-id-of' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData insta-id-of
+8 silly fetchNamedPackageData insta-id-of
+9 silly mapToRegistry name insta-id-of
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/insta-id-of
+13 verbose request uri https://registry.npmjs.org/insta-id-of
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 3:16:41 AM
+16 verbose request using bearer token for auth
+17 verbose request id caa870ee93584663
+18 verbose etag "E34DRJQRP8GDZUD180UG1NMVU"
+19 http request GET https://registry.npmjs.org/insta-id-of
+20 http 304 https://registry.npmjs.org/insta-id-of
+21 verbose headers { 'cache-control': 'max-age=300',
+21 verbose headers   'accept-ranges': 'bytes',
+21 verbose headers   date: 'Tue, 02 Feb 2016 21:46:44 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1454449603.485040,VS0,VE944' }
+22 silly get cb [ 304,
+22 silly get   { 'cache-control': 'max-age=300',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Tue, 02 Feb 2016 21:46:44 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-sin6924-SIN',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1454449603.485040,VS0,VE944' } ]
+23 verbose etag https://registry.npmjs.org/insta-id-of from cache
+24 verbose get saving insta-id-of to /home/rishi/.npm/registry.npmjs.org/insta-id-of/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule insta-id-of@1.0.0 checking installable status
+38 silly cache add args [ 'insta-id-of', null ]
+39 verbose cache add spec insta-id-of
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'insta-id-of',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'insta-id-of',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: '*',
+40 silly cache add   type: 'range' }
+41 silly addNamed insta-id-of@*
+42 verbose addNamed "*" is a valid semver range for insta-id-of
+43 silly addNameRange { name: 'insta-id-of', range: '*', hasData: false }
+44 silly mapToRegistry name insta-id-of
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/insta-id-of
+48 verbose addNameRange registry:https://registry.npmjs.org/insta-id-of not in flight; fetching
+49 verbose get https://registry.npmjs.org/insta-id-of not expired, no request
+50 silly addNameRange number 2 { name: 'insta-id-of', range: '*', hasData: true }
+51 silly addNameRange versions [ 'insta-id-of', [ '1.0.0' ] ]
+52 silly addNamed insta-id-of@1.0.0
+53 verbose addNamed "1.0.0" is a plain semver version for insta-id-of
+54 silly cache afterAdd insta-id-of@1.0.0
+55 verbose afterAdd /home/rishi/.npm/insta-id-of/1.0.0/package/package.json not in flight; writing
+56 verbose afterAdd /home/rishi/.npm/insta-id-of/1.0.0/package/package.json written
+57 silly fetchNamedPackageData follow-redirects
+58 silly mapToRegistry name follow-redirects
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry uri https://registry.npmjs.org/follow-redirects
+62 silly fetchNamedPackageData yargs
+63 silly mapToRegistry name yargs
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry uri https://registry.npmjs.org/yargs
+67 silly fetchNamedPackageData fs
+68 silly mapToRegistry name fs
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/fs
+72 silly fetchNamedPackageData colors
+73 silly mapToRegistry name colors
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry uri https://registry.npmjs.org/colors
+77 verbose request uri https://registry.npmjs.org/follow-redirects
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 3:16:44 AM
+80 verbose request using bearer token for auth
+81 verbose etag "3YU74UMT95CAN08337G5INJIJ"
+82 http request GET https://registry.npmjs.org/follow-redirects
+83 verbose request uri https://registry.npmjs.org/fs
+84 verbose request no auth needed
+85 info attempt registry request try #1 at 3:16:44 AM
+86 verbose request using bearer token for auth
+87 verbose etag "24DWL020I868363KYCPNCS01B"
+88 http request GET https://registry.npmjs.org/fs
+89 verbose request uri https://registry.npmjs.org/yargs
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 3:16:44 AM
+92 verbose request using bearer token for auth
+93 verbose etag "1YKZD57OJL2EVFYZHM9CYWRIB"
+94 http request GET https://registry.npmjs.org/yargs
+95 verbose request uri https://registry.npmjs.org/colors
+96 verbose request no auth needed
+97 info attempt registry request try #1 at 3:16:44 AM
+98 verbose request using bearer token for auth
+99 verbose etag "3L1NUBOLE11E6EN69RAHPE4PK"
+100 http request GET https://registry.npmjs.org/colors
+101 http 304 https://registry.npmjs.org/follow-redirects
+102 verbose headers { 'cache-control': 'max-age=300',
+102 verbose headers   'accept-ranges': 'bytes',
+102 verbose headers   date: 'Tue, 02 Feb 2016 21:46:46 GMT',
+102 verbose headers   via: '1.1 varnish',
+102 verbose headers   connection: 'keep-alive',
+102 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+102 verbose headers   'x-cache': 'MISS',
+102 verbose headers   'x-cache-hits': '0',
+102 verbose headers   'x-timer': 'S1454449605.932094,VS0,VE852' }
+103 silly get cb [ 304,
+103 silly get   { 'cache-control': 'max-age=300',
+103 silly get     'accept-ranges': 'bytes',
+103 silly get     date: 'Tue, 02 Feb 2016 21:46:46 GMT',
+103 silly get     via: '1.1 varnish',
+103 silly get     connection: 'keep-alive',
+103 silly get     'x-served-by': 'cache-sin6923-SIN',
+103 silly get     'x-cache': 'MISS',
+103 silly get     'x-cache-hits': '0',
+103 silly get     'x-timer': 'S1454449605.932094,VS0,VE852' } ]
+104 verbose etag https://registry.npmjs.org/follow-redirects from cache
+105 verbose get saving follow-redirects to /home/rishi/.npm/registry.npmjs.org/follow-redirects/.cache.json
+106 silly resolveWithNewModule follow-redirects@0.0.7 checking installable status
+107 silly cache add args [ 'follow-redirects@*', null ]
+108 verbose cache add spec follow-redirects@*
+109 silly cache add parsed spec Result {
+109 silly cache add   raw: 'follow-redirects@*',
+109 silly cache add   scope: null,
+109 silly cache add   name: 'follow-redirects',
+109 silly cache add   rawSpec: '*',
+109 silly cache add   spec: '*',
+109 silly cache add   type: 'range' }
+110 silly addNamed follow-redirects@*
+111 verbose addNamed "*" is a valid semver range for follow-redirects
+112 silly addNameRange { name: 'follow-redirects', range: '*', hasData: false }
+113 silly mapToRegistry name follow-redirects
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry uri https://registry.npmjs.org/follow-redirects
+117 verbose addNameRange registry:https://registry.npmjs.org/follow-redirects not in flight; fetching
+118 verbose get https://registry.npmjs.org/follow-redirects not expired, no request
+119 silly addNameRange number 2 { name: 'follow-redirects', range: '*', hasData: true }
+120 silly addNameRange versions [ 'follow-redirects',
+120 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.0.6', '0.0.7' ] ]
+121 silly addNamed follow-redirects@0.0.7
+122 verbose addNamed "0.0.7" is a plain semver version for follow-redirects
+123 silly cache afterAdd follow-redirects@0.0.7
+124 verbose afterAdd /home/rishi/.npm/follow-redirects/0.0.7/package/package.json not in flight; writing
+125 verbose afterAdd /home/rishi/.npm/follow-redirects/0.0.7/package/package.json written
+126 http 304 https://registry.npmjs.org/fs
+127 verbose headers { 'cache-control': 'max-age=300',
+127 verbose headers   'accept-ranges': 'bytes',
+127 verbose headers   date: 'Tue, 02 Feb 2016 21:46:47 GMT',
+127 verbose headers   via: '1.1 varnish',
+127 verbose headers   connection: 'keep-alive',
+127 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+127 verbose headers   'x-cache': 'MISS',
+127 verbose headers   'x-cache-hits': '0',
+127 verbose headers   'x-timer': 'S1454449606.012988,VS0,VE1025' }
+128 silly get cb [ 304,
+128 silly get   { 'cache-control': 'max-age=300',
+128 silly get     'accept-ranges': 'bytes',
+128 silly get     date: 'Tue, 02 Feb 2016 21:46:47 GMT',
+128 silly get     via: '1.1 varnish',
+128 silly get     connection: 'keep-alive',
+128 silly get     'x-served-by': 'cache-sin6921-SIN',
+128 silly get     'x-cache': 'MISS',
+128 silly get     'x-cache-hits': '0',
+128 silly get     'x-timer': 'S1454449606.012988,VS0,VE1025' } ]
+129 verbose etag https://registry.npmjs.org/fs from cache
+130 verbose get saving fs to /home/rishi/.npm/registry.npmjs.org/fs/.cache.json
+131 silly resolveWithNewModule fs@0.0.2 checking installable status
+132 silly cache add args [ 'fs@*', null ]
+133 verbose cache add spec fs@*
+134 silly cache add parsed spec Result {
+134 silly cache add   raw: 'fs@*',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'fs',
+134 silly cache add   rawSpec: '*',
+134 silly cache add   spec: '*',
+134 silly cache add   type: 'range' }
+135 silly addNamed fs@*
+136 verbose addNamed "*" is a valid semver range for fs
+137 silly addNameRange { name: 'fs', range: '*', hasData: false }
+138 silly mapToRegistry name fs
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npmjs.org/
+141 silly mapToRegistry uri https://registry.npmjs.org/fs
+142 verbose addNameRange registry:https://registry.npmjs.org/fs not in flight; fetching
+143 verbose get https://registry.npmjs.org/fs not expired, no request
+144 silly addNameRange number 2 { name: 'fs', range: '*', hasData: true }
+145 silly addNameRange versions [ 'fs', [ '0.0.0', '0.0.2' ] ]
+146 silly addNamed fs@0.0.2
+147 verbose addNamed "0.0.2" is a plain semver version for fs
+148 silly cache afterAdd fs@0.0.2
+149 verbose afterAdd /home/rishi/.npm/fs/0.0.2/package/package.json not in flight; writing
+150 verbose afterAdd /home/rishi/.npm/fs/0.0.2/package/package.json written
+151 http 304 https://registry.npmjs.org/yargs
+152 verbose headers { 'cache-control': 'max-age=300',
+152 verbose headers   'accept-ranges': 'bytes',
+152 verbose headers   date: 'Tue, 02 Feb 2016 21:46:47 GMT',
+152 verbose headers   via: '1.1 varnish',
+152 verbose headers   connection: 'keep-alive',
+152 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+152 verbose headers   'x-cache': 'MISS',
+152 verbose headers   'x-cache-hits': '0',
+152 verbose headers   'x-timer': 'S1454449606.090617,VS0,VE984' }
+153 silly get cb [ 304,
+153 silly get   { 'cache-control': 'max-age=300',
+153 silly get     'accept-ranges': 'bytes',
+153 silly get     date: 'Tue, 02 Feb 2016 21:46:47 GMT',
+153 silly get     via: '1.1 varnish',
+153 silly get     connection: 'keep-alive',
+153 silly get     'x-served-by': 'cache-sin6923-SIN',
+153 silly get     'x-cache': 'MISS',
+153 silly get     'x-cache-hits': '0',
+153 silly get     'x-timer': 'S1454449606.090617,VS0,VE984' } ]
+154 verbose etag https://registry.npmjs.org/yargs from cache
+155 verbose get saving yargs to /home/rishi/.npm/registry.npmjs.org/yargs/.cache.json
+156 silly resolveWithNewModule yargs@3.32.0 checking installable status
+157 silly cache add args [ 'yargs@*', null ]
+158 verbose cache add spec yargs@*
+159 silly cache add parsed spec Result {
+159 silly cache add   raw: 'yargs@*',
+159 silly cache add   scope: null,
+159 silly cache add   name: 'yargs',
+159 silly cache add   rawSpec: '*',
+159 silly cache add   spec: '*',
+159 silly cache add   type: 'range' }
+160 silly addNamed yargs@*
+161 verbose addNamed "*" is a valid semver range for yargs
+162 silly addNameRange { name: 'yargs', range: '*', hasData: false }
+163 silly mapToRegistry name yargs
+164 silly mapToRegistry using default registry
+165 silly mapToRegistry registry https://registry.npmjs.org/
+166 silly mapToRegistry uri https://registry.npmjs.org/yargs
+167 verbose addNameRange registry:https://registry.npmjs.org/yargs not in flight; fetching
+168 verbose get https://registry.npmjs.org/yargs not expired, no request
+169 silly addNameRange number 2 { name: 'yargs', range: '*', hasData: true }
+170 silly addNameRange versions [ 'yargs',
+170 silly addNameRange   [ '1.0.0',
+170 silly addNameRange     '1.0.1',
+170 silly addNameRange     '1.0.3',
+170 silly addNameRange     '1.0.4',
+170 silly addNameRange     '1.0.5',
+170 silly addNameRange     '1.0.6',
+170 silly addNameRange     '1.0.7',
+170 silly addNameRange     '1.0.8',
+170 silly addNameRange     '1.0.9',
+170 silly addNameRange     '1.0.10',
+170 silly addNameRange     '1.0.11',
+170 silly addNameRange     '1.0.12',
+170 silly addNameRange     '1.0.13',
+170 silly addNameRange     '1.0.15',
+170 silly addNameRange     '1.1.0',
+170 silly addNameRange     '1.1.1',
+170 silly addNameRange     '1.1.2',
+170 silly addNameRange     '1.1.3',
+170 silly addNameRange     '1.2.0',
+170 silly addNameRange     '1.2.1',
+170 silly addNameRange     '1.2.2',
+170 silly addNameRange     '1.2.3',
+170 silly addNameRange     '1.2.4',
+170 silly addNameRange     '1.2.5',
+170 silly addNameRange     '1.2.6',
+170 silly addNameRange     '1.3.0',
+170 silly addNameRange     '1.3.1',
+170 silly addNameRange     '1.3.2',
+170 silly addNameRange     '1.3.3',
+170 silly addNameRange     '2.1.1',
+170 silly addNameRange     '2.3.0',
+170 silly addNameRange     '3.0.0',
+170 silly addNameRange     '3.0.1',
+170 silly addNameRange     '3.0.2',
+170 silly addNameRange     '3.0.3',
+170 silly addNameRange     '3.0.4',
+170 silly addNameRange     '3.1.0',
+170 silly addNameRange     '3.2.1',
+170 silly addNameRange     '3.3.1',
+170 silly addNameRange     '3.4.0',
+170 silly addNameRange     '3.4.4',
+170 silly addNameRange     '3.4.5',
+170 silly addNameRange     '3.5.0',
+170 silly addNameRange     '3.5.1',
+170 silly addNameRange     '3.5.2',
+170 silly addNameRange     '3.5.3',
+170 silly addNameRange     '3.5.4',
+170 silly addNameRange     '3.6.0',
+170 silly addNameRange     '3.7.0',
+170 silly addNameRange     '3.7.1',
+170 silly addNameRange     '3.7.2',
+170 silly addNameRange     '3.8.0',
+170 silly addNameRange     '3.9.0',
+170 silly addNameRange     '3.9.1',
+170 silly addNameRange     '3.10.0',
+170 silly addNameRange     '3.11.0',
+170 silly addNameRange     '3.12.0',
+170 silly addNameRange     '3.13.0',
+170 silly addNameRange     '3.14.0',
+170 silly addNameRange     '3.15.0',
+170 silly addNameRange     '3.16.0',
+170 silly addNameRange     '3.16.1',
+170 silly addNameRange     '3.17.1',
+170 silly addNameRange     '3.18.0',
+170 silly addNameRange     '3.18.1',
+170 silly addNameRange     '3.19.0',
+170 silly addNameRange     '3.20.0',
+170 silly addNameRange     '3.21.0',
+170 silly addNameRange     '3.21.1',
+170 silly addNameRange     '3.22.0',
+170 silly addNameRange     '3.22.1',
+170 silly addNameRange     '3.22.2',
+170 silly addNameRange     '3.23.0',
+170 silly addNameRange     '3.24.0',
+170 silly addNameRange     '3.25.0',
+170 silly addNameRange     '3.26.0',
+170 silly addNameRange     '3.27.0',
+170 silly addNameRange     '3.28.0',
+170 silly addNameRange     '3.29.0',
+170 silly addNameRange     '3.30.0',
+170 silly addNameRange     '3.31.0',
+170 silly addNameRange     '3.32.0',
+170 silly addNameRange     '4.0.0-alpha1',
+170 silly addNameRange     '4.0.0-alpha2',
+170 silly addNameRange     '4.0.0-alpha3' ] ]
+171 silly addNamed yargs@3.32.0
+172 verbose addNamed "3.32.0" is a plain semver version for yargs
+173 silly cache afterAdd yargs@3.32.0
+174 verbose afterAdd /home/rishi/.npm/yargs/3.32.0/package/package.json not in flight; writing
+175 verbose afterAdd /home/rishi/.npm/yargs/3.32.0/package/package.json written
+176 http 304 https://registry.npmjs.org/colors
+177 verbose headers { 'cache-control': 'max-age=300',
+177 verbose headers   'accept-ranges': 'bytes',
+177 verbose headers   date: 'Tue, 02 Feb 2016 21:46:47 GMT',
+177 verbose headers   via: '1.1 varnish',
+177 verbose headers   connection: 'keep-alive',
+177 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+177 verbose headers   'x-cache': 'MISS',
+177 verbose headers   'x-cache-hits': '0',
+177 verbose headers   'x-timer': 'S1454449606.167026,VS0,VE975' }
+178 silly get cb [ 304,
+178 silly get   { 'cache-control': 'max-age=300',
+178 silly get     'accept-ranges': 'bytes',
+178 silly get     date: 'Tue, 02 Feb 2016 21:46:47 GMT',
+178 silly get     via: '1.1 varnish',
+178 silly get     connection: 'keep-alive',
+178 silly get     'x-served-by': 'cache-sin6921-SIN',
+178 silly get     'x-cache': 'MISS',
+178 silly get     'x-cache-hits': '0',
+178 silly get     'x-timer': 'S1454449606.167026,VS0,VE975' } ]
+179 verbose etag https://registry.npmjs.org/colors from cache
+180 verbose get saving colors to /home/rishi/.npm/registry.npmjs.org/colors/.cache.json
+181 silly resolveWithNewModule colors@1.1.2 checking installable status
+182 silly cache add args [ 'colors@*', null ]
+183 verbose cache add spec colors@*
+184 silly cache add parsed spec Result {
+184 silly cache add   raw: 'colors@*',
+184 silly cache add   scope: null,
+184 silly cache add   name: 'colors',
+184 silly cache add   rawSpec: '*',
+184 silly cache add   spec: '*',
+184 silly cache add   type: 'range' }
+185 silly addNamed colors@*
+186 verbose addNamed "*" is a valid semver range for colors
+187 silly addNameRange { name: 'colors', range: '*', hasData: false }
+188 silly mapToRegistry name colors
+189 silly mapToRegistry using default registry
+190 silly mapToRegistry registry https://registry.npmjs.org/
+191 silly mapToRegistry uri https://registry.npmjs.org/colors
+192 verbose addNameRange registry:https://registry.npmjs.org/colors not in flight; fetching
+193 verbose get https://registry.npmjs.org/colors not expired, no request
+194 silly addNameRange number 2 { name: 'colors', range: '*', hasData: true }
+195 silly addNameRange versions [ 'colors',
+195 silly addNameRange   [ '0.3.0',
+195 silly addNameRange     '0.5.0',
+195 silly addNameRange     '0.5.1',
+195 silly addNameRange     '0.6.0',
+195 silly addNameRange     '0.6.0-1',
+195 silly addNameRange     '0.6.1',
+195 silly addNameRange     '0.6.2',
+195 silly addNameRange     '1.0.0',
+195 silly addNameRange     '1.0.1',
+195 silly addNameRange     '1.0.2',
+195 silly addNameRange     '1.0.3',
+195 silly addNameRange     '1.1.0',
+195 silly addNameRange     '1.1.1',
+195 silly addNameRange     '1.1.2' ] ]
+196 silly addNamed colors@1.1.2
+197 verbose addNamed "1.1.2" is a plain semver version for colors
+198 silly cache afterAdd colors@1.1.2
+199 verbose afterAdd /home/rishi/.npm/colors/1.1.2/package/package.json not in flight; writing
+200 verbose afterAdd /home/rishi/.npm/colors/1.1.2/package/package.json written
+201 silly fetchNamedPackageData debug
+202 silly mapToRegistry name debug
+203 silly mapToRegistry using default registry
+204 silly mapToRegistry registry https://registry.npmjs.org/
+205 silly mapToRegistry uri https://registry.npmjs.org/debug
+206 silly fetchNamedPackageData stream-consume
+207 silly mapToRegistry name stream-consume
+208 silly mapToRegistry using default registry
+209 silly mapToRegistry registry https://registry.npmjs.org/
+210 silly mapToRegistry uri https://registry.npmjs.org/stream-consume
+211 verbose request uri https://registry.npmjs.org/debug
+212 verbose request no auth needed
+213 info attempt registry request try #1 at 3:16:47 AM
+214 verbose request using bearer token for auth
+215 verbose etag "8ANO9SMQXOMG21345804T3L91"
+216 http request GET https://registry.npmjs.org/debug
+217 verbose request uri https://registry.npmjs.org/stream-consume
+218 verbose request no auth needed
+219 info attempt registry request try #1 at 3:16:47 AM
+220 verbose request using bearer token for auth
+221 verbose etag "DGXKXNNMAKCR6L48455H3IEA8"
+222 http request GET https://registry.npmjs.org/stream-consume
+223 http 304 https://registry.npmjs.org/debug
+224 verbose headers { 'cache-control': 'max-age=300',
+224 verbose headers   'accept-ranges': 'bytes',
+224 verbose headers   date: 'Tue, 02 Feb 2016 21:46:48 GMT',
+224 verbose headers   via: '1.1 varnish',
+224 verbose headers   connection: 'keep-alive',
+224 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+224 verbose headers   'x-cache': 'MISS',
+224 verbose headers   'x-cache-hits': '0',
+224 verbose headers   'x-timer': 'S1454449608.421683,VS0,VE224' }
+225 silly get cb [ 304,
+225 silly get   { 'cache-control': 'max-age=300',
+225 silly get     'accept-ranges': 'bytes',
+225 silly get     date: 'Tue, 02 Feb 2016 21:46:48 GMT',
+225 silly get     via: '1.1 varnish',
+225 silly get     connection: 'keep-alive',
+225 silly get     'x-served-by': 'cache-sin6921-SIN',
+225 silly get     'x-cache': 'MISS',
+225 silly get     'x-cache-hits': '0',
+225 silly get     'x-timer': 'S1454449608.421683,VS0,VE224' } ]
+226 verbose etag https://registry.npmjs.org/debug from cache
+227 verbose get saving debug to /home/rishi/.npm/registry.npmjs.org/debug/.cache.json
+228 silly resolveWithNewModule debug@2.2.0 checking installable status
+229 silly cache add args [ 'debug@^2.2.0', null ]
+230 verbose cache add spec debug@^2.2.0
+231 silly cache add parsed spec Result {
+231 silly cache add   raw: 'debug@^2.2.0',
+231 silly cache add   scope: null,
+231 silly cache add   name: 'debug',
+231 silly cache add   rawSpec: '^2.2.0',
+231 silly cache add   spec: '>=2.2.0 <3.0.0',
+231 silly cache add   type: 'range' }
+232 silly addNamed debug@>=2.2.0 <3.0.0
+233 verbose addNamed ">=2.2.0 <3.0.0" is a valid semver range for debug
+234 silly addNameRange { name: 'debug', range: '>=2.2.0 <3.0.0', hasData: false }
+235 silly mapToRegistry name debug
+236 silly mapToRegistry using default registry
+237 silly mapToRegistry registry https://registry.npmjs.org/
+238 silly mapToRegistry uri https://registry.npmjs.org/debug
+239 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+240 verbose get https://registry.npmjs.org/debug not expired, no request
+241 silly addNameRange number 2 { name: 'debug', range: '>=2.2.0 <3.0.0', hasData: true }
+242 silly addNameRange versions [ 'debug',
+242 silly addNameRange   [ '0.0.1',
+242 silly addNameRange     '0.1.0',
+242 silly addNameRange     '0.2.0',
+242 silly addNameRange     '0.3.0',
+242 silly addNameRange     '0.4.0',
+242 silly addNameRange     '0.4.1',
+242 silly addNameRange     '0.5.0',
+242 silly addNameRange     '0.6.0',
+242 silly addNameRange     '0.7.0',
+242 silly addNameRange     '0.7.1',
+242 silly addNameRange     '0.7.2',
+242 silly addNameRange     '0.7.3',
+242 silly addNameRange     '0.7.4',
+242 silly addNameRange     '0.8.0',
+242 silly addNameRange     '0.8.1',
+242 silly addNameRange     '1.0.0',
+242 silly addNameRange     '1.0.1',
+242 silly addNameRange     '1.0.2',
+242 silly addNameRange     '1.0.3',
+242 silly addNameRange     '1.0.4',
+242 silly addNameRange     '2.0.0',
+242 silly addNameRange     '2.1.0',
+242 silly addNameRange     '2.1.1',
+242 silly addNameRange     '2.1.2',
+242 silly addNameRange     '2.1.3',
+242 silly addNameRange     '2.2.0' ] ]
+243 silly addNamed debug@2.2.0
+244 verbose addNamed "2.2.0" is a plain semver version for debug
+245 silly cache afterAdd debug@2.2.0
+246 verbose afterAdd /home/rishi/.npm/debug/2.2.0/package/package.json not in flight; writing
+247 verbose afterAdd /home/rishi/.npm/debug/2.2.0/package/package.json written
+248 http 304 https://registry.npmjs.org/stream-consume
+249 verbose headers { 'cache-control': 'max-age=300',
+249 verbose headers   'accept-ranges': 'bytes',
+249 verbose headers   date: 'Tue, 02 Feb 2016 21:46:49 GMT',
+249 verbose headers   via: '1.1 varnish',
+249 verbose headers   connection: 'keep-alive',
+249 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+249 verbose headers   'x-cache': 'MISS',
+249 verbose headers   'x-cache-hits': '0',
+249 verbose headers   'x-timer': 'S1454449608.502210,VS0,VE806' }
+250 silly get cb [ 304,
+250 silly get   { 'cache-control': 'max-age=300',
+250 silly get     'accept-ranges': 'bytes',
+250 silly get     date: 'Tue, 02 Feb 2016 21:46:49 GMT',
+250 silly get     via: '1.1 varnish',
+250 silly get     connection: 'keep-alive',
+250 silly get     'x-served-by': 'cache-sin6921-SIN',
+250 silly get     'x-cache': 'MISS',
+250 silly get     'x-cache-hits': '0',
+250 silly get     'x-timer': 'S1454449608.502210,VS0,VE806' } ]
+251 verbose etag https://registry.npmjs.org/stream-consume from cache
+252 verbose get saving stream-consume to /home/rishi/.npm/registry.npmjs.org/stream-consume/.cache.json
+253 silly resolveWithNewModule stream-consume@0.1.0 checking installable status
+254 silly cache add args [ 'stream-consume@^0.1.0', null ]
+255 verbose cache add spec stream-consume@^0.1.0
+256 silly cache add parsed spec Result {
+256 silly cache add   raw: 'stream-consume@^0.1.0',
+256 silly cache add   scope: null,
+256 silly cache add   name: 'stream-consume',
+256 silly cache add   rawSpec: '^0.1.0',
+256 silly cache add   spec: '>=0.1.0 <0.2.0',
+256 silly cache add   type: 'range' }
+257 silly addNamed stream-consume@>=0.1.0 <0.2.0
+258 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for stream-consume
+259 silly addNameRange { name: 'stream-consume',
+259 silly addNameRange   range: '>=0.1.0 <0.2.0',
+259 silly addNameRange   hasData: false }
+260 silly mapToRegistry name stream-consume
+261 silly mapToRegistry using default registry
+262 silly mapToRegistry registry https://registry.npmjs.org/
+263 silly mapToRegistry uri https://registry.npmjs.org/stream-consume
+264 verbose addNameRange registry:https://registry.npmjs.org/stream-consume not in flight; fetching
+265 verbose get https://registry.npmjs.org/stream-consume not expired, no request
+266 silly addNameRange number 2 { name: 'stream-consume',
+266 silly addNameRange   range: '>=0.1.0 <0.2.0',
+266 silly addNameRange   hasData: true }
+267 silly addNameRange versions [ 'stream-consume', [ '0.1.0' ] ]
+268 silly addNamed stream-consume@0.1.0
+269 verbose addNamed "0.1.0" is a plain semver version for stream-consume
+270 silly cache afterAdd stream-consume@0.1.0
+271 verbose afterAdd /home/rishi/.npm/stream-consume/0.1.0/package/package.json not in flight; writing
+272 verbose afterAdd /home/rishi/.npm/stream-consume/0.1.0/package/package.json written
+273 silly fetchNamedPackageData ms
+274 silly mapToRegistry name ms
+275 silly mapToRegistry using default registry
+276 silly mapToRegistry registry https://registry.npmjs.org/
+277 silly mapToRegistry uri https://registry.npmjs.org/ms
+278 verbose request uri https://registry.npmjs.org/ms
+279 verbose request no auth needed
+280 info attempt registry request try #1 at 3:16:49 AM
+281 verbose request using bearer token for auth
+282 verbose etag "BF31W6MKP19K9GXAB8E7PBEQ9"
+283 http request GET https://registry.npmjs.org/ms
+284 http 304 https://registry.npmjs.org/ms
+285 verbose headers { 'cache-control': 'max-age=300',
+285 verbose headers   'accept-ranges': 'bytes',
+285 verbose headers   date: 'Tue, 02 Feb 2016 21:46:51 GMT',
+285 verbose headers   via: '1.1 varnish',
+285 verbose headers   connection: 'keep-alive',
+285 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+285 verbose headers   'x-cache': 'MISS',
+285 verbose headers   'x-cache-hits': '0',
+285 verbose headers   'x-timer': 'S1454449610.577828,VS0,VE980' }
+286 silly get cb [ 304,
+286 silly get   { 'cache-control': 'max-age=300',
+286 silly get     'accept-ranges': 'bytes',
+286 silly get     date: 'Tue, 02 Feb 2016 21:46:51 GMT',
+286 silly get     via: '1.1 varnish',
+286 silly get     connection: 'keep-alive',
+286 silly get     'x-served-by': 'cache-sin6922-SIN',
+286 silly get     'x-cache': 'MISS',
+286 silly get     'x-cache-hits': '0',
+286 silly get     'x-timer': 'S1454449610.577828,VS0,VE980' } ]
+287 verbose etag https://registry.npmjs.org/ms from cache
+288 verbose get saving ms to /home/rishi/.npm/registry.npmjs.org/ms/.cache.json
+289 silly resolveWithNewModule ms@0.7.1 checking installable status
+290 silly cache add args [ 'ms@0.7.1', null ]
+291 verbose cache add spec ms@0.7.1
+292 silly cache add parsed spec Result {
+292 silly cache add   raw: 'ms@0.7.1',
+292 silly cache add   scope: null,
+292 silly cache add   name: 'ms',
+292 silly cache add   rawSpec: '0.7.1',
+292 silly cache add   spec: '0.7.1',
+292 silly cache add   type: 'version' }
+293 silly addNamed ms@0.7.1
+294 verbose addNamed "0.7.1" is a plain semver version for ms
+295 silly mapToRegistry name ms
+296 silly mapToRegistry using default registry
+297 silly mapToRegistry registry https://registry.npmjs.org/
+298 silly mapToRegistry uri https://registry.npmjs.org/ms
+299 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+300 verbose get https://registry.npmjs.org/ms not expired, no request
+301 silly cache afterAdd ms@0.7.1
+302 verbose afterAdd /home/rishi/.npm/ms/0.7.1/package/package.json not in flight; writing
+303 verbose afterAdd /home/rishi/.npm/ms/0.7.1/package/package.json written
+304 silly fetchNamedPackageData camelcase
+305 silly mapToRegistry name camelcase
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry https://registry.npmjs.org/
+308 silly mapToRegistry uri https://registry.npmjs.org/camelcase
+309 silly fetchNamedPackageData cliui
+310 silly mapToRegistry name cliui
+311 silly mapToRegistry using default registry
+312 silly mapToRegistry registry https://registry.npmjs.org/
+313 silly mapToRegistry uri https://registry.npmjs.org/cliui
+314 silly fetchNamedPackageData decamelize
+315 silly mapToRegistry name decamelize
+316 silly mapToRegistry using default registry
+317 silly mapToRegistry registry https://registry.npmjs.org/
+318 silly mapToRegistry uri https://registry.npmjs.org/decamelize
+319 silly fetchNamedPackageData os-locale
+320 silly mapToRegistry name os-locale
+321 silly mapToRegistry using default registry
+322 silly mapToRegistry registry https://registry.npmjs.org/
+323 silly mapToRegistry uri https://registry.npmjs.org/os-locale
+324 silly fetchNamedPackageData string-width
+325 silly mapToRegistry name string-width
+326 silly mapToRegistry using default registry
+327 silly mapToRegistry registry https://registry.npmjs.org/
+328 silly mapToRegistry uri https://registry.npmjs.org/string-width
+329 silly fetchNamedPackageData window-size
+330 silly mapToRegistry name window-size
+331 silly mapToRegistry using default registry
+332 silly mapToRegistry registry https://registry.npmjs.org/
+333 silly mapToRegistry uri https://registry.npmjs.org/window-size
+334 silly fetchNamedPackageData y18n
+335 silly mapToRegistry name y18n
+336 silly mapToRegistry using default registry
+337 silly mapToRegistry registry https://registry.npmjs.org/
+338 silly mapToRegistry uri https://registry.npmjs.org/y18n
+339 verbose request uri https://registry.npmjs.org/decamelize
+340 verbose request no auth needed
+341 info attempt registry request try #1 at 3:16:51 AM
+342 verbose request using bearer token for auth
+343 verbose etag "4P8GGUAZSP3O7T754ICN6U7IN"
+344 http request GET https://registry.npmjs.org/decamelize
+345 verbose request uri https://registry.npmjs.org/camelcase
+346 verbose request no auth needed
+347 info attempt registry request try #1 at 3:16:51 AM
+348 verbose request using bearer token for auth
+349 verbose etag "81QKMFIEHOVQPYX5BC3L2OJS0"
+350 http request GET https://registry.npmjs.org/camelcase
+351 verbose request uri https://registry.npmjs.org/os-locale
+352 verbose request no auth needed
+353 info attempt registry request try #1 at 3:16:51 AM
+354 verbose request using bearer token for auth
+355 verbose etag "9Z6M9RI2KXOPPRCOLCGXA3HCS"
+356 http request GET https://registry.npmjs.org/os-locale
+357 verbose request uri https://registry.npmjs.org/cliui
+358 verbose request no auth needed
+359 info attempt registry request try #1 at 3:16:51 AM
+360 verbose request using bearer token for auth
+361 verbose etag "58ULZBTOK6IB181MZQF4NKI10"
+362 http request GET https://registry.npmjs.org/cliui
+363 verbose request uri https://registry.npmjs.org/string-width
+364 verbose request no auth needed
+365 info attempt registry request try #1 at 3:16:51 AM
+366 verbose request using bearer token for auth
+367 verbose etag "2NGJ306K3F4HBBP12FZ9M7ZB8"
+368 http request GET https://registry.npmjs.org/string-width
+369 verbose request uri https://registry.npmjs.org/window-size
+370 verbose request no auth needed
+371 info attempt registry request try #1 at 3:16:51 AM
+372 verbose request using bearer token for auth
+373 verbose etag "DUTWHLQ7GRH20165UV8WJGSNP"
+374 http request GET https://registry.npmjs.org/window-size
+375 verbose request uri https://registry.npmjs.org/y18n
+376 verbose request no auth needed
+377 info attempt registry request try #1 at 3:16:51 AM
+378 verbose request using bearer token for auth
+379 verbose etag "1DCZRFBCFZHI6EJ4TXEY7AGMI"
+380 http request GET https://registry.npmjs.org/y18n
+381 http 304 https://registry.npmjs.org/string-width
+382 verbose headers { 'cache-control': 'max-age=300',
+382 verbose headers   'accept-ranges': 'bytes',
+382 verbose headers   date: 'Tue, 02 Feb 2016 21:46:53 GMT',
+382 verbose headers   via: '1.1 varnish',
+382 verbose headers   connection: 'keep-alive',
+382 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+382 verbose headers   'x-cache': 'MISS',
+382 verbose headers   'x-cache-hits': '0',
+382 verbose headers   'x-timer': 'S1454449613.477846,VS0,VE205' }
+383 silly get cb [ 304,
+383 silly get   { 'cache-control': 'max-age=300',
+383 silly get     'accept-ranges': 'bytes',
+383 silly get     date: 'Tue, 02 Feb 2016 21:46:53 GMT',
+383 silly get     via: '1.1 varnish',
+383 silly get     connection: 'keep-alive',
+383 silly get     'x-served-by': 'cache-sin6927-SIN',
+383 silly get     'x-cache': 'MISS',
+383 silly get     'x-cache-hits': '0',
+383 silly get     'x-timer': 'S1454449613.477846,VS0,VE205' } ]
+384 verbose etag https://registry.npmjs.org/string-width from cache
+385 verbose get saving string-width to /home/rishi/.npm/registry.npmjs.org/string-width/.cache.json
+386 silly resolveWithNewModule string-width@1.0.1 checking installable status
+387 silly cache add args [ 'string-width@^1.0.1', null ]
+388 verbose cache add spec string-width@^1.0.1
+389 silly cache add parsed spec Result {
+389 silly cache add   raw: 'string-width@^1.0.1',
+389 silly cache add   scope: null,
+389 silly cache add   name: 'string-width',
+389 silly cache add   rawSpec: '^1.0.1',
+389 silly cache add   spec: '>=1.0.1 <2.0.0',
+389 silly cache add   type: 'range' }
+390 silly addNamed string-width@>=1.0.1 <2.0.0
+391 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for string-width
+392 silly addNameRange { name: 'string-width', range: '>=1.0.1 <2.0.0', hasData: false }
+393 silly mapToRegistry name string-width
+394 silly mapToRegistry using default registry
+395 silly mapToRegistry registry https://registry.npmjs.org/
+396 silly mapToRegistry uri https://registry.npmjs.org/string-width
+397 verbose addNameRange registry:https://registry.npmjs.org/string-width not in flight; fetching
+398 verbose get https://registry.npmjs.org/string-width not expired, no request
+399 silly addNameRange number 2 { name: 'string-width', range: '>=1.0.1 <2.0.0', hasData: true }
+400 silly addNameRange versions [ 'string-width', [ '1.0.0', '1.0.1' ] ]
+401 silly addNamed string-width@1.0.1
+402 verbose addNamed "1.0.1" is a plain semver version for string-width
+403 silly cache afterAdd string-width@1.0.1
+404 verbose afterAdd /home/rishi/.npm/string-width/1.0.1/package/package.json not in flight; writing
+405 verbose afterAdd /home/rishi/.npm/string-width/1.0.1/package/package.json written
+406 http 304 https://registry.npmjs.org/cliui
+407 verbose headers { 'cache-control': 'max-age=300',
+407 verbose headers   'accept-ranges': 'bytes',
+407 verbose headers   date: 'Tue, 02 Feb 2016 21:46:53 GMT',
+407 verbose headers   via: '1.1 varnish',
+407 verbose headers   connection: 'keep-alive',
+407 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+407 verbose headers   'x-cache': 'MISS',
+407 verbose headers   'x-cache-hits': '0',
+407 verbose headers   'x-timer': 'S1454449613.108337,VS0,VE786' }
+408 silly get cb [ 304,
+408 silly get   { 'cache-control': 'max-age=300',
+408 silly get     'accept-ranges': 'bytes',
+408 silly get     date: 'Tue, 02 Feb 2016 21:46:53 GMT',
+408 silly get     via: '1.1 varnish',
+408 silly get     connection: 'keep-alive',
+408 silly get     'x-served-by': 'cache-sin6924-SIN',
+408 silly get     'x-cache': 'MISS',
+408 silly get     'x-cache-hits': '0',
+408 silly get     'x-timer': 'S1454449613.108337,VS0,VE786' } ]
+409 verbose etag https://registry.npmjs.org/cliui from cache
+410 verbose get saving cliui to /home/rishi/.npm/registry.npmjs.org/cliui/.cache.json
+411 silly resolveWithNewModule cliui@3.1.0 checking installable status
+412 silly cache add args [ 'cliui@^3.0.3', null ]
+413 verbose cache add spec cliui@^3.0.3
+414 silly cache add parsed spec Result {
+414 silly cache add   raw: 'cliui@^3.0.3',
+414 silly cache add   scope: null,
+414 silly cache add   name: 'cliui',
+414 silly cache add   rawSpec: '^3.0.3',
+414 silly cache add   spec: '>=3.0.3 <4.0.0',
+414 silly cache add   type: 'range' }
+415 silly addNamed cliui@>=3.0.3 <4.0.0
+416 verbose addNamed ">=3.0.3 <4.0.0" is a valid semver range for cliui
+417 silly addNameRange { name: 'cliui', range: '>=3.0.3 <4.0.0', hasData: false }
+418 silly mapToRegistry name cliui
+419 silly mapToRegistry using default registry
+420 silly mapToRegistry registry https://registry.npmjs.org/
+421 silly mapToRegistry uri https://registry.npmjs.org/cliui
+422 verbose addNameRange registry:https://registry.npmjs.org/cliui not in flight; fetching
+423 verbose get https://registry.npmjs.org/cliui not expired, no request
+424 silly addNameRange number 2 { name: 'cliui', range: '>=3.0.3 <4.0.0', hasData: true }
+425 silly addNameRange versions [ 'cliui',
+425 silly addNameRange   [ '1.0.0',
+425 silly addNameRange     '1.1.0',
+425 silly addNameRange     '1.3.0',
+425 silly addNameRange     '1.4.0',
+425 silly addNameRange     '2.0.0',
+425 silly addNameRange     '2.1.0',
+425 silly addNameRange     '3.0.0',
+425 silly addNameRange     '3.0.1',
+425 silly addNameRange     '3.0.2',
+425 silly addNameRange     '3.0.3',
+425 silly addNameRange     '3.1.0' ] ]
+426 silly addNamed cliui@3.1.0
+427 verbose addNamed "3.1.0" is a plain semver version for cliui
+428 silly cache afterAdd cliui@3.1.0
+429 verbose afterAdd /home/rishi/.npm/cliui/3.1.0/package/package.json not in flight; writing
+430 verbose afterAdd /home/rishi/.npm/cliui/3.1.0/package/package.json written
+431 http 304 https://registry.npmjs.org/window-size
+432 verbose headers { 'cache-control': 'max-age=300',
+432 verbose headers   'accept-ranges': 'bytes',
+432 verbose headers   date: 'Tue, 02 Feb 2016 21:46:53 GMT',
+432 verbose headers   via: '1.1 varnish',
+432 verbose headers   connection: 'keep-alive',
+432 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+432 verbose headers   'x-cache': 'MISS',
+432 verbose headers   'x-cache-hits': '0',
+432 verbose headers   'x-timer': 'S1454449613.697943,VS0,VE240' }
+433 silly get cb [ 304,
+433 silly get   { 'cache-control': 'max-age=300',
+433 silly get     'accept-ranges': 'bytes',
+433 silly get     date: 'Tue, 02 Feb 2016 21:46:53 GMT',
+433 silly get     via: '1.1 varnish',
+433 silly get     connection: 'keep-alive',
+433 silly get     'x-served-by': 'cache-sin6924-SIN',
+433 silly get     'x-cache': 'MISS',
+433 silly get     'x-cache-hits': '0',
+433 silly get     'x-timer': 'S1454449613.697943,VS0,VE240' } ]
+434 verbose etag https://registry.npmjs.org/window-size from cache
+435 verbose get saving window-size to /home/rishi/.npm/registry.npmjs.org/window-size/.cache.json
+436 silly resolveWithNewModule window-size@0.1.4 checking installable status
+437 silly cache add args [ 'window-size@^0.1.4', null ]
+438 verbose cache add spec window-size@^0.1.4
+439 silly cache add parsed spec Result {
+439 silly cache add   raw: 'window-size@^0.1.4',
+439 silly cache add   scope: null,
+439 silly cache add   name: 'window-size',
+439 silly cache add   rawSpec: '^0.1.4',
+439 silly cache add   spec: '>=0.1.4 <0.2.0',
+439 silly cache add   type: 'range' }
+440 silly addNamed window-size@>=0.1.4 <0.2.0
+441 verbose addNamed ">=0.1.4 <0.2.0" is a valid semver range for window-size
+442 silly addNameRange { name: 'window-size', range: '>=0.1.4 <0.2.0', hasData: false }
+443 silly mapToRegistry name window-size
+444 silly mapToRegistry using default registry
+445 silly mapToRegistry registry https://registry.npmjs.org/
+446 silly mapToRegistry uri https://registry.npmjs.org/window-size
+447 verbose addNameRange registry:https://registry.npmjs.org/window-size not in flight; fetching
+448 verbose get https://registry.npmjs.org/window-size not expired, no request
+449 silly addNameRange number 2 { name: 'window-size', range: '>=0.1.4 <0.2.0', hasData: true }
+450 silly addNameRange versions [ 'window-size',
+450 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.2.0' ] ]
+451 silly addNamed window-size@0.1.4
+452 verbose addNamed "0.1.4" is a plain semver version for window-size
+453 silly cache afterAdd window-size@0.1.4
+454 verbose afterAdd /home/rishi/.npm/window-size/0.1.4/package/package.json not in flight; writing
+455 verbose afterAdd /home/rishi/.npm/window-size/0.1.4/package/package.json written
+456 http 304 https://registry.npmjs.org/y18n
+457 verbose headers { 'cache-control': 'max-age=300',
+457 verbose headers   'accept-ranges': 'bytes',
+457 verbose headers   date: 'Tue, 02 Feb 2016 21:46:54 GMT',
+457 verbose headers   via: '1.1 varnish',
+457 verbose headers   connection: 'keep-alive',
+457 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+457 verbose headers   'x-cache': 'MISS',
+457 verbose headers   'x-cache-hits': '0',
+457 verbose headers   'x-timer': 'S1454449613.763780,VS0,VE242' }
+458 silly get cb [ 304,
+458 silly get   { 'cache-control': 'max-age=300',
+458 silly get     'accept-ranges': 'bytes',
+458 silly get     date: 'Tue, 02 Feb 2016 21:46:54 GMT',
+458 silly get     via: '1.1 varnish',
+458 silly get     connection: 'keep-alive',
+458 silly get     'x-served-by': 'cache-sin6921-SIN',
+458 silly get     'x-cache': 'MISS',
+458 silly get     'x-cache-hits': '0',
+458 silly get     'x-timer': 'S1454449613.763780,VS0,VE242' } ]
+459 verbose etag https://registry.npmjs.org/y18n from cache
+460 verbose get saving y18n to /home/rishi/.npm/registry.npmjs.org/y18n/.cache.json
+461 silly resolveWithNewModule y18n@3.2.0 checking installable status
+462 silly cache add args [ 'y18n@^3.2.0', null ]
+463 verbose cache add spec y18n@^3.2.0
+464 silly cache add parsed spec Result {
+464 silly cache add   raw: 'y18n@^3.2.0',
+464 silly cache add   scope: null,
+464 silly cache add   name: 'y18n',
+464 silly cache add   rawSpec: '^3.2.0',
+464 silly cache add   spec: '>=3.2.0 <4.0.0',
+464 silly cache add   type: 'range' }
+465 silly addNamed y18n@>=3.2.0 <4.0.0
+466 verbose addNamed ">=3.2.0 <4.0.0" is a valid semver range for y18n
+467 silly addNameRange { name: 'y18n', range: '>=3.2.0 <4.0.0', hasData: false }
+468 silly mapToRegistry name y18n
+469 silly mapToRegistry using default registry
+470 silly mapToRegistry registry https://registry.npmjs.org/
+471 silly mapToRegistry uri https://registry.npmjs.org/y18n
+472 verbose addNameRange registry:https://registry.npmjs.org/y18n not in flight; fetching
+473 verbose get https://registry.npmjs.org/y18n not expired, no request
+474 silly addNameRange number 2 { name: 'y18n', range: '>=3.2.0 <4.0.0', hasData: true }
+475 silly addNameRange versions [ 'y18n',
+475 silly addNameRange   [ '1.0.0', '1.1.0', '2.0.0', '3.0.0', '3.1.0', '3.2.0' ] ]
+476 silly addNamed y18n@3.2.0
+477 verbose addNamed "3.2.0" is a plain semver version for y18n
+478 silly cache afterAdd y18n@3.2.0
+479 verbose afterAdd /home/rishi/.npm/y18n/3.2.0/package/package.json not in flight; writing
+480 verbose afterAdd /home/rishi/.npm/y18n/3.2.0/package/package.json written
+481 http 304 https://registry.npmjs.org/decamelize
+482 verbose headers { 'cache-control': 'max-age=300',
+482 verbose headers   'accept-ranges': 'bytes',
+482 verbose headers   date: 'Tue, 02 Feb 2016 21:46:54 GMT',
+482 verbose headers   via: '1.1 varnish',
+482 verbose headers   connection: 'keep-alive',
+482 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+482 verbose headers   'x-cache': 'MISS',
+482 verbose headers   'x-cache-hits': '0',
+482 verbose headers   'x-timer': 'S1454449613.188434,VS0,VE943' }
+483 silly get cb [ 304,
+483 silly get   { 'cache-control': 'max-age=300',
+483 silly get     'accept-ranges': 'bytes',
+483 silly get     date: 'Tue, 02 Feb 2016 21:46:54 GMT',
+483 silly get     via: '1.1 varnish',
+483 silly get     connection: 'keep-alive',
+483 silly get     'x-served-by': 'cache-sin6927-SIN',
+483 silly get     'x-cache': 'MISS',
+483 silly get     'x-cache-hits': '0',
+483 silly get     'x-timer': 'S1454449613.188434,VS0,VE943' } ]
+484 verbose etag https://registry.npmjs.org/decamelize from cache
+485 verbose get saving decamelize to /home/rishi/.npm/registry.npmjs.org/decamelize/.cache.json
+486 silly resolveWithNewModule decamelize@1.1.2 checking installable status
+487 silly cache add args [ 'decamelize@^1.1.1', null ]
+488 verbose cache add spec decamelize@^1.1.1
+489 silly cache add parsed spec Result {
+489 silly cache add   raw: 'decamelize@^1.1.1',
+489 silly cache add   scope: null,
+489 silly cache add   name: 'decamelize',
+489 silly cache add   rawSpec: '^1.1.1',
+489 silly cache add   spec: '>=1.1.1 <2.0.0',
+489 silly cache add   type: 'range' }
+490 silly addNamed decamelize@>=1.1.1 <2.0.0
+491 verbose addNamed ">=1.1.1 <2.0.0" is a valid semver range for decamelize
+492 silly addNameRange { name: 'decamelize', range: '>=1.1.1 <2.0.0', hasData: false }
+493 silly mapToRegistry name decamelize
+494 silly mapToRegistry using default registry
+495 silly mapToRegistry registry https://registry.npmjs.org/
+496 silly mapToRegistry uri https://registry.npmjs.org/decamelize
+497 verbose addNameRange registry:https://registry.npmjs.org/decamelize not in flight; fetching
+498 verbose get https://registry.npmjs.org/decamelize not expired, no request
+499 silly addNameRange number 2 { name: 'decamelize', range: '>=1.1.1 <2.0.0', hasData: true }
+500 silly addNameRange versions [ 'decamelize', [ '1.0.0', '1.1.0', '1.1.1', '1.1.2' ] ]
+501 silly addNamed decamelize@1.1.2
+502 verbose addNamed "1.1.2" is a plain semver version for decamelize
+503 http 304 https://registry.npmjs.org/camelcase
+504 verbose headers { 'cache-control': 'max-age=300',
+504 verbose headers   'accept-ranges': 'bytes',
+504 verbose headers   date: 'Tue, 02 Feb 2016 21:46:54 GMT',
+504 verbose headers   via: '1.1 varnish',
+504 verbose headers   connection: 'keep-alive',
+504 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+504 verbose headers   'x-cache': 'MISS',
+504 verbose headers   'x-cache-hits': '0',
+504 verbose headers   'x-timer': 'S1454449613.328542,VS0,VE814' }
+505 silly get cb [ 304,
+505 silly get   { 'cache-control': 'max-age=300',
+505 silly get     'accept-ranges': 'bytes',
+505 silly get     date: 'Tue, 02 Feb 2016 21:46:54 GMT',
+505 silly get     via: '1.1 varnish',
+505 silly get     connection: 'keep-alive',
+505 silly get     'x-served-by': 'cache-sin6927-SIN',
+505 silly get     'x-cache': 'MISS',
+505 silly get     'x-cache-hits': '0',
+505 silly get     'x-timer': 'S1454449613.328542,VS0,VE814' } ]
+506 verbose etag https://registry.npmjs.org/camelcase from cache
+507 verbose get saving camelcase to /home/rishi/.npm/registry.npmjs.org/camelcase/.cache.json
+508 silly cache afterAdd decamelize@1.1.2
+509 verbose afterAdd /home/rishi/.npm/decamelize/1.1.2/package/package.json not in flight; writing
+510 verbose afterAdd /home/rishi/.npm/decamelize/1.1.2/package/package.json written
+511 silly resolveWithNewModule camelcase@2.1.0 checking installable status
+512 silly cache add args [ 'camelcase@^2.0.1', null ]
+513 verbose cache add spec camelcase@^2.0.1
+514 silly cache add parsed spec Result {
+514 silly cache add   raw: 'camelcase@^2.0.1',
+514 silly cache add   scope: null,
+514 silly cache add   name: 'camelcase',
+514 silly cache add   rawSpec: '^2.0.1',
+514 silly cache add   spec: '>=2.0.1 <3.0.0',
+514 silly cache add   type: 'range' }
+515 silly addNamed camelcase@>=2.0.1 <3.0.0
+516 verbose addNamed ">=2.0.1 <3.0.0" is a valid semver range for camelcase
+517 silly addNameRange { name: 'camelcase', range: '>=2.0.1 <3.0.0', hasData: false }
+518 silly mapToRegistry name camelcase
+519 silly mapToRegistry using default registry
+520 silly mapToRegistry registry https://registry.npmjs.org/
+521 silly mapToRegistry uri https://registry.npmjs.org/camelcase
+522 verbose addNameRange registry:https://registry.npmjs.org/camelcase not in flight; fetching
+523 verbose get https://registry.npmjs.org/camelcase not expired, no request
+524 silly addNameRange number 2 { name: 'camelcase', range: '>=2.0.1 <3.0.0', hasData: true }
+525 silly addNameRange versions [ 'camelcase',
+525 silly addNameRange   [ '1.0.0',
+525 silly addNameRange     '1.0.1',
+525 silly addNameRange     '1.0.2',
+525 silly addNameRange     '1.1.0',
+525 silly addNameRange     '1.2.0',
+525 silly addNameRange     '1.2.1',
+525 silly addNameRange     '2.0.0',
+525 silly addNameRange     '2.0.1',
+525 silly addNameRange     '2.1.0' ] ]
+526 silly addNamed camelcase@2.1.0
+527 verbose addNamed "2.1.0" is a plain semver version for camelcase
+528 silly cache afterAdd camelcase@2.1.0
+529 verbose afterAdd /home/rishi/.npm/camelcase/2.1.0/package/package.json not in flight; writing
+530 verbose afterAdd /home/rishi/.npm/camelcase/2.1.0/package/package.json written
+531 http 304 https://registry.npmjs.org/os-locale
+532 verbose headers { 'cache-control': 'max-age=300',
+532 verbose headers   'accept-ranges': 'bytes',
+532 verbose headers   date: 'Tue, 02 Feb 2016 21:46:54 GMT',
+532 verbose headers   via: '1.1 varnish',
+532 verbose headers   connection: 'keep-alive',
+532 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+532 verbose headers   'x-cache': 'MISS',
+532 verbose headers   'x-cache-hits': '0',
+532 verbose headers   'x-timer': 'S1454449613.256356,VS0,VE1025' }
+533 silly get cb [ 304,
+533 silly get   { 'cache-control': 'max-age=300',
+533 silly get     'accept-ranges': 'bytes',
+533 silly get     date: 'Tue, 02 Feb 2016 21:46:54 GMT',
+533 silly get     via: '1.1 varnish',
+533 silly get     connection: 'keep-alive',
+533 silly get     'x-served-by': 'cache-sin6925-SIN',
+533 silly get     'x-cache': 'MISS',
+533 silly get     'x-cache-hits': '0',
+533 silly get     'x-timer': 'S1454449613.256356,VS0,VE1025' } ]
+534 verbose etag https://registry.npmjs.org/os-locale from cache
+535 verbose get saving os-locale to /home/rishi/.npm/registry.npmjs.org/os-locale/.cache.json
+536 silly resolveWithNewModule os-locale@1.4.0 checking installable status
+537 silly cache add args [ 'os-locale@^1.4.0', null ]
+538 verbose cache add spec os-locale@^1.4.0
+539 silly cache add parsed spec Result {
+539 silly cache add   raw: 'os-locale@^1.4.0',
+539 silly cache add   scope: null,
+539 silly cache add   name: 'os-locale',
+539 silly cache add   rawSpec: '^1.4.0',
+539 silly cache add   spec: '>=1.4.0 <2.0.0',
+539 silly cache add   type: 'range' }
+540 silly addNamed os-locale@>=1.4.0 <2.0.0
+541 verbose addNamed ">=1.4.0 <2.0.0" is a valid semver range for os-locale
+542 silly addNameRange { name: 'os-locale', range: '>=1.4.0 <2.0.0', hasData: false }
+543 silly mapToRegistry name os-locale
+544 silly mapToRegistry using default registry
+545 silly mapToRegistry registry https://registry.npmjs.org/
+546 silly mapToRegistry uri https://registry.npmjs.org/os-locale
+547 verbose addNameRange registry:https://registry.npmjs.org/os-locale not in flight; fetching
+548 verbose get https://registry.npmjs.org/os-locale not expired, no request
+549 silly addNameRange number 2 { name: 'os-locale', range: '>=1.4.0 <2.0.0', hasData: true }
+550 silly addNameRange versions [ 'os-locale',
+550 silly addNameRange   [ '1.0.0',
+550 silly addNameRange     '1.0.1',
+550 silly addNameRange     '1.1.0',
+550 silly addNameRange     '1.2.0',
+550 silly addNameRange     '1.2.1',
+550 silly addNameRange     '1.3.0',
+550 silly addNameRange     '1.3.1',
+550 silly addNameRange     '1.4.0' ] ]
+551 silly addNamed os-locale@1.4.0
+552 verbose addNamed "1.4.0" is a plain semver version for os-locale
+553 silly cache afterAdd os-locale@1.4.0
+554 verbose afterAdd /home/rishi/.npm/os-locale/1.4.0/package/package.json not in flight; writing
+555 verbose afterAdd /home/rishi/.npm/os-locale/1.4.0/package/package.json written
+556 silly fetchNamedPackageData strip-ansi
+557 silly mapToRegistry name strip-ansi
+558 silly mapToRegistry using default registry
+559 silly mapToRegistry registry https://registry.npmjs.org/
+560 silly mapToRegistry uri https://registry.npmjs.org/strip-ansi
+561 silly fetchNamedPackageData wrap-ansi
+562 silly mapToRegistry name wrap-ansi
+563 silly mapToRegistry using default registry
+564 silly mapToRegistry registry https://registry.npmjs.org/
+565 silly mapToRegistry uri https://registry.npmjs.org/wrap-ansi
+566 verbose request uri https://registry.npmjs.org/wrap-ansi
+567 verbose request no auth needed
+568 info attempt registry request try #1 at 3:16:54 AM
+569 verbose request using bearer token for auth
+570 verbose etag "AE5AQU8TKC75NIS3ZJ5HJ5ILC"
+571 http request GET https://registry.npmjs.org/wrap-ansi
+572 verbose request uri https://registry.npmjs.org/strip-ansi
+573 verbose request no auth needed
+574 info attempt registry request try #1 at 3:16:54 AM
+575 verbose request using bearer token for auth
+576 verbose etag "RBPZS1J21XBKPHESKAG048ZH"
+577 http request GET https://registry.npmjs.org/strip-ansi
+578 http 304 https://registry.npmjs.org/wrap-ansi
+579 verbose headers { 'cache-control': 'max-age=300',
+579 verbose headers   'accept-ranges': 'bytes',
+579 verbose headers   date: 'Tue, 02 Feb 2016 21:46:55 GMT',
+579 verbose headers   via: '1.1 varnish',
+579 verbose headers   connection: 'keep-alive',
+579 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+579 verbose headers   'x-cache': 'MISS',
+579 verbose headers   'x-cache-hits': '0',
+579 verbose headers   'x-timer': 'S1454449615.553902,VS0,VE225' }
+580 silly get cb [ 304,
+580 silly get   { 'cache-control': 'max-age=300',
+580 silly get     'accept-ranges': 'bytes',
+580 silly get     date: 'Tue, 02 Feb 2016 21:46:55 GMT',
+580 silly get     via: '1.1 varnish',
+580 silly get     connection: 'keep-alive',
+580 silly get     'x-served-by': 'cache-sin6921-SIN',
+580 silly get     'x-cache': 'MISS',
+580 silly get     'x-cache-hits': '0',
+580 silly get     'x-timer': 'S1454449615.553902,VS0,VE225' } ]
+581 verbose etag https://registry.npmjs.org/wrap-ansi from cache
+582 verbose get saving wrap-ansi to /home/rishi/.npm/registry.npmjs.org/wrap-ansi/.cache.json
+583 silly resolveWithNewModule wrap-ansi@1.0.0 checking installable status
+584 silly cache add args [ 'wrap-ansi@^1.0.0', null ]
+585 verbose cache add spec wrap-ansi@^1.0.0
+586 silly cache add parsed spec Result {
+586 silly cache add   raw: 'wrap-ansi@^1.0.0',
+586 silly cache add   scope: null,
+586 silly cache add   name: 'wrap-ansi',
+586 silly cache add   rawSpec: '^1.0.0',
+586 silly cache add   spec: '>=1.0.0 <2.0.0',
+586 silly cache add   type: 'range' }
+587 silly addNamed wrap-ansi@>=1.0.0 <2.0.0
+588 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for wrap-ansi
+589 silly addNameRange { name: 'wrap-ansi', range: '>=1.0.0 <2.0.0', hasData: false }
+590 silly mapToRegistry name wrap-ansi
+591 silly mapToRegistry using default registry
+592 silly mapToRegistry registry https://registry.npmjs.org/
+593 silly mapToRegistry uri https://registry.npmjs.org/wrap-ansi
+594 verbose addNameRange registry:https://registry.npmjs.org/wrap-ansi not in flight; fetching
+595 verbose get https://registry.npmjs.org/wrap-ansi not expired, no request
+596 silly addNameRange number 2 { name: 'wrap-ansi', range: '>=1.0.0 <2.0.0', hasData: true }
+597 silly addNameRange versions [ 'wrap-ansi', [ '0.1.0', '0.2.0', '0.3.0', '1.0.0', '2.0.0' ] ]
+598 silly addNamed wrap-ansi@1.0.0
+599 verbose addNamed "1.0.0" is a plain semver version for wrap-ansi
+600 silly cache afterAdd wrap-ansi@1.0.0
+601 verbose afterAdd /home/rishi/.npm/wrap-ansi/1.0.0/package/package.json not in flight; writing
+602 verbose afterAdd /home/rishi/.npm/wrap-ansi/1.0.0/package/package.json written
+603 http 304 https://registry.npmjs.org/strip-ansi
+604 verbose headers { 'cache-control': 'max-age=300',
+604 verbose headers   'accept-ranges': 'bytes',
+604 verbose headers   date: 'Tue, 02 Feb 2016 21:46:56 GMT',
+604 verbose headers   via: '1.1 varnish',
+604 verbose headers   connection: 'keep-alive',
+604 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+604 verbose headers   'x-cache': 'MISS',
+604 verbose headers   'x-cache-hits': '0',
+604 verbose headers   'x-timer': 'S1454449615.627246,VS0,VE845' }
+605 silly get cb [ 304,
+605 silly get   { 'cache-control': 'max-age=300',
+605 silly get     'accept-ranges': 'bytes',
+605 silly get     date: 'Tue, 02 Feb 2016 21:46:56 GMT',
+605 silly get     via: '1.1 varnish',
+605 silly get     connection: 'keep-alive',
+605 silly get     'x-served-by': 'cache-sin6925-SIN',
+605 silly get     'x-cache': 'MISS',
+605 silly get     'x-cache-hits': '0',
+605 silly get     'x-timer': 'S1454449615.627246,VS0,VE845' } ]
+606 verbose etag https://registry.npmjs.org/strip-ansi from cache
+607 verbose get saving strip-ansi to /home/rishi/.npm/registry.npmjs.org/strip-ansi/.cache.json
+608 silly resolveWithNewModule strip-ansi@3.0.0 checking installable status
+609 silly cache add args [ 'strip-ansi@^3.0.0', null ]
+610 verbose cache add spec strip-ansi@^3.0.0
+611 silly cache add parsed spec Result {
+611 silly cache add   raw: 'strip-ansi@^3.0.0',
+611 silly cache add   scope: null,
+611 silly cache add   name: 'strip-ansi',
+611 silly cache add   rawSpec: '^3.0.0',
+611 silly cache add   spec: '>=3.0.0 <4.0.0',
+611 silly cache add   type: 'range' }
+612 silly addNamed strip-ansi@>=3.0.0 <4.0.0
+613 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for strip-ansi
+614 silly addNameRange { name: 'strip-ansi', range: '>=3.0.0 <4.0.0', hasData: false }
+615 silly mapToRegistry name strip-ansi
+616 silly mapToRegistry using default registry
+617 silly mapToRegistry registry https://registry.npmjs.org/
+618 silly mapToRegistry uri https://registry.npmjs.org/strip-ansi
+619 verbose addNameRange registry:https://registry.npmjs.org/strip-ansi not in flight; fetching
+620 verbose get https://registry.npmjs.org/strip-ansi not expired, no request
+621 silly addNameRange number 2 { name: 'strip-ansi', range: '>=3.0.0 <4.0.0', hasData: true }
+622 silly addNameRange versions [ 'strip-ansi',
+622 silly addNameRange   [ '0.1.0',
+622 silly addNameRange     '0.1.1',
+622 silly addNameRange     '0.2.0',
+622 silly addNameRange     '0.2.1',
+622 silly addNameRange     '0.2.2',
+622 silly addNameRange     '0.3.0',
+622 silly addNameRange     '1.0.0',
+622 silly addNameRange     '2.0.0',
+622 silly addNameRange     '2.0.1',
+622 silly addNameRange     '3.0.0' ] ]
+623 silly addNamed strip-ansi@3.0.0
+624 verbose addNamed "3.0.0" is a plain semver version for strip-ansi
+625 silly cache afterAdd strip-ansi@3.0.0
+626 verbose afterAdd /home/rishi/.npm/strip-ansi/3.0.0/package/package.json not in flight; writing
+627 verbose afterAdd /home/rishi/.npm/strip-ansi/3.0.0/package/package.json written
+628 silly fetchNamedPackageData code-point-at
+629 silly mapToRegistry name code-point-at
+630 silly mapToRegistry using default registry
+631 silly mapToRegistry registry https://registry.npmjs.org/
+632 silly mapToRegistry uri https://registry.npmjs.org/code-point-at
+633 silly fetchNamedPackageData is-fullwidth-code-point
+634 silly mapToRegistry name is-fullwidth-code-point
+635 silly mapToRegistry using default registry
+636 silly mapToRegistry registry https://registry.npmjs.org/
+637 silly mapToRegistry uri https://registry.npmjs.org/is-fullwidth-code-point
+638 verbose request uri https://registry.npmjs.org/code-point-at
+639 verbose request no auth needed
+640 info attempt registry request try #1 at 3:16:56 AM
+641 verbose request using bearer token for auth
+642 verbose etag "6SJP08M2UXRSJQG1KK3WJNQXX"
+643 http request GET https://registry.npmjs.org/code-point-at
+644 verbose request uri https://registry.npmjs.org/is-fullwidth-code-point
+645 verbose request no auth needed
+646 info attempt registry request try #1 at 3:16:56 AM
+647 verbose request using bearer token for auth
+648 verbose etag "2TMP1HZQ7KI8UGWDZ67IZ1EEV"
+649 http request GET https://registry.npmjs.org/is-fullwidth-code-point
+650 http 304 https://registry.npmjs.org/code-point-at
+651 verbose headers { 'cache-control': 'max-age=300',
+651 verbose headers   'accept-ranges': 'bytes',
+651 verbose headers   date: 'Tue, 02 Feb 2016 21:46:58 GMT',
+651 verbose headers   via: '1.1 varnish',
+651 verbose headers   connection: 'keep-alive',
+651 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+651 verbose headers   'x-cache': 'MISS',
+651 verbose headers   'x-cache-hits': '0',
+651 verbose headers   'x-timer': 'S1454449617.778560,VS0,VE264' }
+652 silly get cb [ 304,
+652 silly get   { 'cache-control': 'max-age=300',
+652 silly get     'accept-ranges': 'bytes',
+652 silly get     date: 'Tue, 02 Feb 2016 21:46:58 GMT',
+652 silly get     via: '1.1 varnish',
+652 silly get     connection: 'keep-alive',
+652 silly get     'x-served-by': 'cache-sin6925-SIN',
+652 silly get     'x-cache': 'MISS',
+652 silly get     'x-cache-hits': '0',
+652 silly get     'x-timer': 'S1454449617.778560,VS0,VE264' } ]
+653 verbose etag https://registry.npmjs.org/code-point-at from cache
+654 verbose get saving code-point-at to /home/rishi/.npm/registry.npmjs.org/code-point-at/.cache.json
+655 silly resolveWithNewModule code-point-at@1.0.0 checking installable status
+656 silly cache add args [ 'code-point-at@^1.0.0', null ]
+657 verbose cache add spec code-point-at@^1.0.0
+658 silly cache add parsed spec Result {
+658 silly cache add   raw: 'code-point-at@^1.0.0',
+658 silly cache add   scope: null,
+658 silly cache add   name: 'code-point-at',
+658 silly cache add   rawSpec: '^1.0.0',
+658 silly cache add   spec: '>=1.0.0 <2.0.0',
+658 silly cache add   type: 'range' }
+659 silly addNamed code-point-at@>=1.0.0 <2.0.0
+660 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for code-point-at
+661 silly addNameRange { name: 'code-point-at',
+661 silly addNameRange   range: '>=1.0.0 <2.0.0',
+661 silly addNameRange   hasData: false }
+662 silly mapToRegistry name code-point-at
+663 silly mapToRegistry using default registry
+664 silly mapToRegistry registry https://registry.npmjs.org/
+665 silly mapToRegistry uri https://registry.npmjs.org/code-point-at
+666 verbose addNameRange registry:https://registry.npmjs.org/code-point-at not in flight; fetching
+667 verbose get https://registry.npmjs.org/code-point-at not expired, no request
+668 silly addNameRange number 2 { name: 'code-point-at', range: '>=1.0.0 <2.0.0', hasData: true }
+669 silly addNameRange versions [ 'code-point-at', [ '1.0.0' ] ]
+670 silly addNamed code-point-at@1.0.0
+671 verbose addNamed "1.0.0" is a plain semver version for code-point-at
+672 silly cache afterAdd code-point-at@1.0.0
+673 verbose afterAdd /home/rishi/.npm/code-point-at/1.0.0/package/package.json not in flight; writing
+674 verbose afterAdd /home/rishi/.npm/code-point-at/1.0.0/package/package.json written
+675 http 304 https://registry.npmjs.org/is-fullwidth-code-point
+676 verbose headers { 'cache-control': 'max-age=300',
+676 verbose headers   'accept-ranges': 'bytes',
+676 verbose headers   date: 'Tue, 02 Feb 2016 21:46:58 GMT',
+676 verbose headers   via: '1.1 varnish',
+676 verbose headers   connection: 'keep-alive',
+676 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+676 verbose headers   'x-cache': 'MISS',
+676 verbose headers   'x-cache-hits': '0',
+676 verbose headers   'x-timer': 'S1454449617.873671,VS0,VE222' }
+677 silly get cb [ 304,
+677 silly get   { 'cache-control': 'max-age=300',
+677 silly get     'accept-ranges': 'bytes',
+677 silly get     date: 'Tue, 02 Feb 2016 21:46:58 GMT',
+677 silly get     via: '1.1 varnish',
+677 silly get     connection: 'keep-alive',
+677 silly get     'x-served-by': 'cache-sin6921-SIN',
+677 silly get     'x-cache': 'MISS',
+677 silly get     'x-cache-hits': '0',
+677 silly get     'x-timer': 'S1454449617.873671,VS0,VE222' } ]
+678 verbose etag https://registry.npmjs.org/is-fullwidth-code-point from cache
+679 verbose get saving is-fullwidth-code-point to /home/rishi/.npm/registry.npmjs.org/is-fullwidth-code-point/.cache.json
+680 silly resolveWithNewModule is-fullwidth-code-point@1.0.0 checking installable status
+681 silly cache add args [ 'is-fullwidth-code-point@^1.0.0', null ]
+682 verbose cache add spec is-fullwidth-code-point@^1.0.0
+683 silly cache add parsed spec Result {
+683 silly cache add   raw: 'is-fullwidth-code-point@^1.0.0',
+683 silly cache add   scope: null,
+683 silly cache add   name: 'is-fullwidth-code-point',
+683 silly cache add   rawSpec: '^1.0.0',
+683 silly cache add   spec: '>=1.0.0 <2.0.0',
+683 silly cache add   type: 'range' }
+684 silly addNamed is-fullwidth-code-point@>=1.0.0 <2.0.0
+685 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for is-fullwidth-code-point
+686 silly addNameRange { name: 'is-fullwidth-code-point',
+686 silly addNameRange   range: '>=1.0.0 <2.0.0',
+686 silly addNameRange   hasData: false }
+687 silly mapToRegistry name is-fullwidth-code-point
+688 silly mapToRegistry using default registry
+689 silly mapToRegistry registry https://registry.npmjs.org/
+690 silly mapToRegistry uri https://registry.npmjs.org/is-fullwidth-code-point
+691 verbose addNameRange registry:https://registry.npmjs.org/is-fullwidth-code-point not in flight; fetching
+692 verbose get https://registry.npmjs.org/is-fullwidth-code-point not expired, no request
+693 silly addNameRange number 2 { name: 'is-fullwidth-code-point',
+693 silly addNameRange   range: '>=1.0.0 <2.0.0',
+693 silly addNameRange   hasData: true }
+694 silly addNameRange versions [ 'is-fullwidth-code-point', [ '1.0.0' ] ]
+695 silly addNamed is-fullwidth-code-point@1.0.0
+696 verbose addNamed "1.0.0" is a plain semver version for is-fullwidth-code-point
+697 silly cache afterAdd is-fullwidth-code-point@1.0.0
+698 verbose afterAdd /home/rishi/.npm/is-fullwidth-code-point/1.0.0/package/package.json not in flight; writing
+699 verbose afterAdd /home/rishi/.npm/is-fullwidth-code-point/1.0.0/package/package.json written
+700 silly fetchNamedPackageData number-is-nan
+701 silly mapToRegistry name number-is-nan
+702 silly mapToRegistry using default registry
+703 silly mapToRegistry registry https://registry.npmjs.org/
+704 silly mapToRegistry uri https://registry.npmjs.org/number-is-nan
+705 verbose request uri https://registry.npmjs.org/number-is-nan
+706 verbose request no auth needed
+707 info attempt registry request try #1 at 3:16:58 AM
+708 verbose request using bearer token for auth
+709 verbose etag "BCBSJHWOHTBSTQRYM7FWOBJUY"
+710 http request GET https://registry.npmjs.org/number-is-nan
+711 http 304 https://registry.npmjs.org/number-is-nan
+712 verbose headers { 'cache-control': 'max-age=300',
+712 verbose headers   'accept-ranges': 'bytes',
+712 verbose headers   date: 'Tue, 02 Feb 2016 21:46:59 GMT',
+712 verbose headers   via: '1.1 varnish',
+712 verbose headers   connection: 'keep-alive',
+712 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+712 verbose headers   'x-cache': 'MISS',
+712 verbose headers   'x-cache-hits': '0',
+712 verbose headers   'x-timer': 'S1454449619.342232,VS0,VE225' }
+713 silly get cb [ 304,
+713 silly get   { 'cache-control': 'max-age=300',
+713 silly get     'accept-ranges': 'bytes',
+713 silly get     date: 'Tue, 02 Feb 2016 21:46:59 GMT',
+713 silly get     via: '1.1 varnish',
+713 silly get     connection: 'keep-alive',
+713 silly get     'x-served-by': 'cache-sin6921-SIN',
+713 silly get     'x-cache': 'MISS',
+713 silly get     'x-cache-hits': '0',
+713 silly get     'x-timer': 'S1454449619.342232,VS0,VE225' } ]
+714 verbose etag https://registry.npmjs.org/number-is-nan from cache
+715 verbose get saving number-is-nan to /home/rishi/.npm/registry.npmjs.org/number-is-nan/.cache.json
+716 silly resolveWithNewModule number-is-nan@1.0.0 checking installable status
+717 silly cache add args [ 'number-is-nan@^1.0.0', null ]
+718 verbose cache add spec number-is-nan@^1.0.0
+719 silly cache add parsed spec Result {
+719 silly cache add   raw: 'number-is-nan@^1.0.0',
+719 silly cache add   scope: null,
+719 silly cache add   name: 'number-is-nan',
+719 silly cache add   rawSpec: '^1.0.0',
+719 silly cache add   spec: '>=1.0.0 <2.0.0',
+719 silly cache add   type: 'range' }
+720 silly addNamed number-is-nan@>=1.0.0 <2.0.0
+721 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for number-is-nan
+722 silly addNameRange { name: 'number-is-nan',
+722 silly addNameRange   range: '>=1.0.0 <2.0.0',
+722 silly addNameRange   hasData: false }
+723 silly mapToRegistry name number-is-nan
+724 silly mapToRegistry using default registry
+725 silly mapToRegistry registry https://registry.npmjs.org/
+726 silly mapToRegistry uri https://registry.npmjs.org/number-is-nan
+727 verbose addNameRange registry:https://registry.npmjs.org/number-is-nan not in flight; fetching
+728 verbose get https://registry.npmjs.org/number-is-nan not expired, no request
+729 silly addNameRange number 2 { name: 'number-is-nan', range: '>=1.0.0 <2.0.0', hasData: true }
+730 silly addNameRange versions [ 'number-is-nan', [ '1.0.0' ] ]
+731 silly addNamed number-is-nan@1.0.0
+732 verbose addNamed "1.0.0" is a plain semver version for number-is-nan
+733 silly cache afterAdd number-is-nan@1.0.0
+734 verbose afterAdd /home/rishi/.npm/number-is-nan/1.0.0/package/package.json not in flight; writing
+735 verbose afterAdd /home/rishi/.npm/number-is-nan/1.0.0/package/package.json written
+736 silly fetchNamedPackageData ansi-regex
+737 silly mapToRegistry name ansi-regex
+738 silly mapToRegistry using default registry
+739 silly mapToRegistry registry https://registry.npmjs.org/
+740 silly mapToRegistry uri https://registry.npmjs.org/ansi-regex
+741 verbose request uri https://registry.npmjs.org/ansi-regex
+742 verbose request no auth needed
+743 info attempt registry request try #1 at 3:16:59 AM
+744 verbose request using bearer token for auth
+745 verbose etag "1MRHZG3BYMGFOFAI4EBGRPR9U"
+746 http request GET https://registry.npmjs.org/ansi-regex
+747 http 304 https://registry.npmjs.org/ansi-regex
+748 verbose headers { 'cache-control': 'max-age=300',
+748 verbose headers   'accept-ranges': 'bytes',
+748 verbose headers   date: 'Tue, 02 Feb 2016 21:47:01 GMT',
+748 verbose headers   via: '1.1 varnish',
+748 verbose headers   connection: 'keep-alive',
+748 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+748 verbose headers   'x-cache': 'MISS',
+748 verbose headers   'x-cache-hits': '0',
+748 verbose headers   'x-timer': 'S1454449620.880450,VS0,VE857' }
+749 silly get cb [ 304,
+749 silly get   { 'cache-control': 'max-age=300',
+749 silly get     'accept-ranges': 'bytes',
+749 silly get     date: 'Tue, 02 Feb 2016 21:47:01 GMT',
+749 silly get     via: '1.1 varnish',
+749 silly get     connection: 'keep-alive',
+749 silly get     'x-served-by': 'cache-sin6926-SIN',
+749 silly get     'x-cache': 'MISS',
+749 silly get     'x-cache-hits': '0',
+749 silly get     'x-timer': 'S1454449620.880450,VS0,VE857' } ]
+750 verbose etag https://registry.npmjs.org/ansi-regex from cache
+751 verbose get saving ansi-regex to /home/rishi/.npm/registry.npmjs.org/ansi-regex/.cache.json
+752 silly resolveWithNewModule ansi-regex@2.0.0 checking installable status
+753 silly cache add args [ 'ansi-regex@^2.0.0', null ]
+754 verbose cache add spec ansi-regex@^2.0.0
+755 silly cache add parsed spec Result {
+755 silly cache add   raw: 'ansi-regex@^2.0.0',
+755 silly cache add   scope: null,
+755 silly cache add   name: 'ansi-regex',
+755 silly cache add   rawSpec: '^2.0.0',
+755 silly cache add   spec: '>=2.0.0 <3.0.0',
+755 silly cache add   type: 'range' }
+756 silly addNamed ansi-regex@>=2.0.0 <3.0.0
+757 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for ansi-regex
+758 silly addNameRange { name: 'ansi-regex', range: '>=2.0.0 <3.0.0', hasData: false }
+759 silly mapToRegistry name ansi-regex
+760 silly mapToRegistry using default registry
+761 silly mapToRegistry registry https://registry.npmjs.org/
+762 silly mapToRegistry uri https://registry.npmjs.org/ansi-regex
+763 verbose addNameRange registry:https://registry.npmjs.org/ansi-regex not in flight; fetching
+764 verbose get https://registry.npmjs.org/ansi-regex not expired, no request
+765 silly addNameRange number 2 { name: 'ansi-regex', range: '>=2.0.0 <3.0.0', hasData: true }
+766 silly addNameRange versions [ 'ansi-regex',
+766 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '1.0.0', '1.1.0', '1.1.1', '2.0.0' ] ]
+767 silly addNamed ansi-regex@2.0.0
+768 verbose addNamed "2.0.0" is a plain semver version for ansi-regex
+769 silly cache afterAdd ansi-regex@2.0.0
+770 verbose afterAdd /home/rishi/.npm/ansi-regex/2.0.0/package/package.json not in flight; writing
+771 verbose afterAdd /home/rishi/.npm/ansi-regex/2.0.0/package/package.json written
+772 silly fetchNamedPackageData escape-string-regexp
+773 silly mapToRegistry name escape-string-regexp
+774 silly mapToRegistry using default registry
+775 silly mapToRegistry registry https://registry.npmjs.org/
+776 silly mapToRegistry uri https://registry.npmjs.org/escape-string-regexp
+777 verbose request uri https://registry.npmjs.org/escape-string-regexp
+778 verbose request no auth needed
+779 info attempt registry request try #1 at 3:17:01 AM
+780 verbose request using bearer token for auth
+781 verbose etag "CQ28SNE8P0TB6YG3YIR2OZNE0"
+782 http request GET https://registry.npmjs.org/escape-string-regexp
+783 http 304 https://registry.npmjs.org/escape-string-regexp
+784 verbose headers { 'cache-control': 'max-age=300',
+784 verbose headers   'accept-ranges': 'bytes',
+784 verbose headers   date: 'Tue, 02 Feb 2016 21:47:03 GMT',
+784 verbose headers   via: '1.1 varnish',
+784 verbose headers   connection: 'keep-alive',
+784 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+784 verbose headers   'x-cache': 'MISS',
+784 verbose headers   'x-cache-hits': '0',
+784 verbose headers   'x-timer': 'S1454449623.001077,VS0,VE248' }
+785 silly get cb [ 304,
+785 silly get   { 'cache-control': 'max-age=300',
+785 silly get     'accept-ranges': 'bytes',
+785 silly get     date: 'Tue, 02 Feb 2016 21:47:03 GMT',
+785 silly get     via: '1.1 varnish',
+785 silly get     connection: 'keep-alive',
+785 silly get     'x-served-by': 'cache-sin6921-SIN',
+785 silly get     'x-cache': 'MISS',
+785 silly get     'x-cache-hits': '0',
+785 silly get     'x-timer': 'S1454449623.001077,VS0,VE248' } ]
+786 verbose etag https://registry.npmjs.org/escape-string-regexp from cache
+787 verbose get saving escape-string-regexp to /home/rishi/.npm/registry.npmjs.org/escape-string-regexp/.cache.json
+788 silly resolveWithNewModule escape-string-regexp@1.0.4 checking installable status
+789 silly cache add args [ 'escape-string-regexp@^1.0.4', null ]
+790 verbose cache add spec escape-string-regexp@^1.0.4
+791 silly cache add parsed spec Result {
+791 silly cache add   raw: 'escape-string-regexp@^1.0.4',
+791 silly cache add   scope: null,
+791 silly cache add   name: 'escape-string-regexp',
+791 silly cache add   rawSpec: '^1.0.4',
+791 silly cache add   spec: '>=1.0.4 <2.0.0',
+791 silly cache add   type: 'range' }
+792 silly addNamed escape-string-regexp@>=1.0.4 <2.0.0
+793 verbose addNamed ">=1.0.4 <2.0.0" is a valid semver range for escape-string-regexp
+794 silly addNameRange { name: 'escape-string-regexp',
+794 silly addNameRange   range: '>=1.0.4 <2.0.0',
+794 silly addNameRange   hasData: false }
+795 silly mapToRegistry name escape-string-regexp
+796 silly mapToRegistry using default registry
+797 silly mapToRegistry registry https://registry.npmjs.org/
+798 silly mapToRegistry uri https://registry.npmjs.org/escape-string-regexp
+799 verbose addNameRange registry:https://registry.npmjs.org/escape-string-regexp not in flight; fetching
+800 verbose get https://registry.npmjs.org/escape-string-regexp not expired, no request
+801 silly addNameRange number 2 { name: 'escape-string-regexp',
+801 silly addNameRange   range: '>=1.0.4 <2.0.0',
+801 silly addNameRange   hasData: true }
+802 silly addNameRange versions [ 'escape-string-regexp',
+802 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4' ] ]
+803 silly addNamed escape-string-regexp@1.0.4
+804 verbose addNamed "1.0.4" is a plain semver version for escape-string-regexp
+805 silly cache afterAdd escape-string-regexp@1.0.4
+806 verbose afterAdd /home/rishi/.npm/escape-string-regexp/1.0.4/package/package.json not in flight; writing
+807 verbose afterAdd /home/rishi/.npm/escape-string-regexp/1.0.4/package/package.json written
+808 silly fetchNamedPackageData lcid
+809 silly mapToRegistry name lcid
+810 silly mapToRegistry using default registry
+811 silly mapToRegistry registry https://registry.npmjs.org/
+812 silly mapToRegistry uri https://registry.npmjs.org/lcid
+813 verbose request uri https://registry.npmjs.org/lcid
+814 verbose request no auth needed
+815 info attempt registry request try #1 at 3:17:03 AM
+816 verbose request using bearer token for auth
+817 verbose etag "AXQVY97R5JDUC16FYHVXW37YX"
+818 http request GET https://registry.npmjs.org/lcid
+819 http 304 https://registry.npmjs.org/lcid
+820 verbose headers { 'cache-control': 'max-age=300',
+820 verbose headers   'accept-ranges': 'bytes',
+820 verbose headers   date: 'Tue, 02 Feb 2016 21:47:04 GMT',
+820 verbose headers   via: '1.1 varnish',
+820 verbose headers   connection: 'keep-alive',
+820 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+820 verbose headers   'x-cache': 'MISS',
+820 verbose headers   'x-cache-hits': '0',
+820 verbose headers   'x-timer': 'S1454449624.560516,VS0,VE255' }
+821 silly get cb [ 304,
+821 silly get   { 'cache-control': 'max-age=300',
+821 silly get     'accept-ranges': 'bytes',
+821 silly get     date: 'Tue, 02 Feb 2016 21:47:04 GMT',
+821 silly get     via: '1.1 varnish',
+821 silly get     connection: 'keep-alive',
+821 silly get     'x-served-by': 'cache-sin6925-SIN',
+821 silly get     'x-cache': 'MISS',
+821 silly get     'x-cache-hits': '0',
+821 silly get     'x-timer': 'S1454449624.560516,VS0,VE255' } ]
+822 verbose etag https://registry.npmjs.org/lcid from cache
+823 verbose get saving lcid to /home/rishi/.npm/registry.npmjs.org/lcid/.cache.json
+824 silly resolveWithNewModule lcid@1.0.0 checking installable status
+825 silly cache add args [ 'lcid@^1.0.0', null ]
+826 verbose cache add spec lcid@^1.0.0
+827 silly cache add parsed spec Result {
+827 silly cache add   raw: 'lcid@^1.0.0',
+827 silly cache add   scope: null,
+827 silly cache add   name: 'lcid',
+827 silly cache add   rawSpec: '^1.0.0',
+827 silly cache add   spec: '>=1.0.0 <2.0.0',
+827 silly cache add   type: 'range' }
+828 silly addNamed lcid@>=1.0.0 <2.0.0
+829 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for lcid
+830 silly addNameRange { name: 'lcid', range: '>=1.0.0 <2.0.0', hasData: false }
+831 silly mapToRegistry name lcid
+832 silly mapToRegistry using default registry
+833 silly mapToRegistry registry https://registry.npmjs.org/
+834 silly mapToRegistry uri https://registry.npmjs.org/lcid
+835 verbose addNameRange registry:https://registry.npmjs.org/lcid not in flight; fetching
+836 verbose get https://registry.npmjs.org/lcid not expired, no request
+837 silly addNameRange number 2 { name: 'lcid', range: '>=1.0.0 <2.0.0', hasData: true }
+838 silly addNameRange versions [ 'lcid', [ '1.0.0' ] ]
+839 silly addNamed lcid@1.0.0
+840 verbose addNamed "1.0.0" is a plain semver version for lcid
+841 silly cache afterAdd lcid@1.0.0
+842 verbose afterAdd /home/rishi/.npm/lcid/1.0.0/package/package.json not in flight; writing
+843 verbose afterAdd /home/rishi/.npm/lcid/1.0.0/package/package.json written
+844 silly fetchNamedPackageData invert-kv
+845 silly mapToRegistry name invert-kv
+846 silly mapToRegistry using default registry
+847 silly mapToRegistry registry https://registry.npmjs.org/
+848 silly mapToRegistry uri https://registry.npmjs.org/invert-kv
+849 verbose request uri https://registry.npmjs.org/invert-kv
+850 verbose request no auth needed
+851 info attempt registry request try #1 at 3:17:05 AM
+852 verbose request using bearer token for auth
+853 verbose etag "9D0IPY0GVO2A63RZXF19GYY1V"
+854 http request GET https://registry.npmjs.org/invert-kv
+855 http 304 https://registry.npmjs.org/invert-kv
+856 verbose headers { 'cache-control': 'max-age=300',
+856 verbose headers   'accept-ranges': 'bytes',
+856 verbose headers   date: 'Tue, 02 Feb 2016 21:47:06 GMT',
+856 verbose headers   via: '1.1 varnish',
+856 verbose headers   connection: 'keep-alive',
+856 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+856 verbose headers   'x-cache': 'MISS',
+856 verbose headers   'x-cache-hits': '0',
+856 verbose headers   'x-timer': 'S1454449626.110345,VS0,VE243' }
+857 silly get cb [ 304,
+857 silly get   { 'cache-control': 'max-age=300',
+857 silly get     'accept-ranges': 'bytes',
+857 silly get     date: 'Tue, 02 Feb 2016 21:47:06 GMT',
+857 silly get     via: '1.1 varnish',
+857 silly get     connection: 'keep-alive',
+857 silly get     'x-served-by': 'cache-sin6926-SIN',
+857 silly get     'x-cache': 'MISS',
+857 silly get     'x-cache-hits': '0',
+857 silly get     'x-timer': 'S1454449626.110345,VS0,VE243' } ]
+858 verbose etag https://registry.npmjs.org/invert-kv from cache
+859 verbose get saving invert-kv to /home/rishi/.npm/registry.npmjs.org/invert-kv/.cache.json
+860 silly resolveWithNewModule invert-kv@1.0.0 checking installable status
+861 silly cache add args [ 'invert-kv@^1.0.0', null ]
+862 verbose cache add spec invert-kv@^1.0.0
+863 silly cache add parsed spec Result {
+863 silly cache add   raw: 'invert-kv@^1.0.0',
+863 silly cache add   scope: null,
+863 silly cache add   name: 'invert-kv',
+863 silly cache add   rawSpec: '^1.0.0',
+863 silly cache add   spec: '>=1.0.0 <2.0.0',
+863 silly cache add   type: 'range' }
+864 silly addNamed invert-kv@>=1.0.0 <2.0.0
+865 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for invert-kv
+866 silly addNameRange { name: 'invert-kv', range: '>=1.0.0 <2.0.0', hasData: false }
+867 silly mapToRegistry name invert-kv
+868 silly mapToRegistry using default registry
+869 silly mapToRegistry registry https://registry.npmjs.org/
+870 silly mapToRegistry uri https://registry.npmjs.org/invert-kv
+871 verbose addNameRange registry:https://registry.npmjs.org/invert-kv not in flight; fetching
+872 verbose get https://registry.npmjs.org/invert-kv not expired, no request
+873 silly addNameRange number 2 { name: 'invert-kv', range: '>=1.0.0 <2.0.0', hasData: true }
+874 silly addNameRange versions [ 'invert-kv', [ '0.1.0', '1.0.0' ] ]
+875 silly addNamed invert-kv@1.0.0
+876 verbose addNamed "1.0.0" is a plain semver version for invert-kv
+877 silly cache afterAdd invert-kv@1.0.0
+878 verbose afterAdd /home/rishi/.npm/invert-kv/1.0.0/package/package.json not in flight; writing
+879 verbose afterAdd /home/rishi/.npm/invert-kv/1.0.0/package/package.json written
+880 silly loadAllDepsIntoIdealTree Finishing
+881 silly idealTree:prePrune lib
+881 silly idealTree:prePrune `-- insta-id-of@1.0.0
+881 silly idealTree:prePrune   +-- ansi-regex@2.0.0
+881 silly idealTree:prePrune   +-- camelcase@2.1.0
+881 silly idealTree:prePrune   +-- cliui@3.1.0
+881 silly idealTree:prePrune   +-- code-point-at@1.0.0
+881 silly idealTree:prePrune   +-- colors@1.1.2
+881 silly idealTree:prePrune   +-- debug@2.2.0
+881 silly idealTree:prePrune   +-- decamelize@1.1.2
+881 silly idealTree:prePrune   +-- escape-string-regexp@1.0.4
+881 silly idealTree:prePrune   +-- follow-redirects@0.0.7
+881 silly idealTree:prePrune   +-- fs@0.0.2
+881 silly idealTree:prePrune   +-- invert-kv@1.0.0
+881 silly idealTree:prePrune   +-- is-fullwidth-code-point@1.0.0
+881 silly idealTree:prePrune   +-- lcid@1.0.0
+881 silly idealTree:prePrune   +-- ms@0.7.1
+881 silly idealTree:prePrune   +-- number-is-nan@1.0.0
+881 silly idealTree:prePrune   +-- os-locale@1.4.0
+881 silly idealTree:prePrune   +-- stream-consume@0.1.0
+881 silly idealTree:prePrune   +-- string-width@1.0.1
+881 silly idealTree:prePrune   +-- strip-ansi@3.0.0
+881 silly idealTree:prePrune   +-- window-size@0.1.4
+881 silly idealTree:prePrune   +-- wrap-ansi@1.0.0
+881 silly idealTree:prePrune   +-- y18n@3.2.0
+881 silly idealTree:prePrune   `-- yargs@3.32.0
+882 silly loadIdealTree Finishing
+883 silly currentTree lib
+884 silly idealTree lib
+884 silly idealTree `-- insta-id-of@1.0.0
+884 silly idealTree   +-- ansi-regex@2.0.0
+884 silly idealTree   +-- camelcase@2.1.0
+884 silly idealTree   +-- cliui@3.1.0
+884 silly idealTree   +-- code-point-at@1.0.0
+884 silly idealTree   +-- colors@1.1.2
+884 silly idealTree   +-- debug@2.2.0
+884 silly idealTree   +-- decamelize@1.1.2
+884 silly idealTree   +-- escape-string-regexp@1.0.4
+884 silly idealTree   +-- follow-redirects@0.0.7
+884 silly idealTree   +-- fs@0.0.2
+884 silly idealTree   +-- invert-kv@1.0.0
+884 silly idealTree   +-- is-fullwidth-code-point@1.0.0
+884 silly idealTree   +-- lcid@1.0.0
+884 silly idealTree   +-- ms@0.7.1
+884 silly idealTree   +-- number-is-nan@1.0.0
+884 silly idealTree   +-- os-locale@1.4.0
+884 silly idealTree   +-- stream-consume@0.1.0
+884 silly idealTree   +-- string-width@1.0.1
+884 silly idealTree   +-- strip-ansi@3.0.0
+884 silly idealTree   +-- window-size@0.1.4
+884 silly idealTree   +-- wrap-ansi@1.0.0
+884 silly idealTree   +-- y18n@3.2.0
+884 silly idealTree   `-- yargs@3.32.0
+885 silly generateActionsToTake Starting
+886 silly install generateActionsToTake
+887 silly generateActionsToTake Finishing
+888 silly diffTrees action count 24
+889 silly diffTrees add ansi-regex@2.0.0
+890 silly diffTrees add camelcase@2.1.0
+891 silly diffTrees add colors@1.1.2
+892 silly diffTrees add escape-string-regexp@1.0.4
+893 silly diffTrees add decamelize@1.1.2
+894 silly diffTrees add fs@0.0.2
+895 silly diffTrees add invert-kv@1.0.0
+896 silly diffTrees add lcid@1.0.0
+897 silly diffTrees add ms@0.7.1
+898 silly diffTrees add debug@2.2.0
+899 silly diffTrees add number-is-nan@1.0.0
+900 silly diffTrees add is-fullwidth-code-point@1.0.0
+901 silly diffTrees add code-point-at@1.0.0
+902 silly diffTrees add os-locale@1.4.0
+903 silly diffTrees add stream-consume@0.1.0
+904 silly diffTrees add follow-redirects@0.0.7
+905 silly diffTrees add strip-ansi@3.0.0
+906 silly diffTrees add string-width@1.0.1
+907 silly diffTrees add window-size@0.1.4
+908 silly diffTrees add wrap-ansi@1.0.0
+909 silly diffTrees add cliui@3.1.0
+910 silly diffTrees add y18n@3.2.0
+911 silly diffTrees add yargs@3.32.0
+912 silly diffTrees add insta-id-of@1.0.0
+913 silly decomposeActions action count 192
+914 silly decomposeActions fetch ansi-regex@2.0.0
+915 silly decomposeActions extract ansi-regex@2.0.0
+916 silly decomposeActions preinstall ansi-regex@2.0.0
+917 silly decomposeActions build ansi-regex@2.0.0
+918 silly decomposeActions install ansi-regex@2.0.0
+919 silly decomposeActions postinstall ansi-regex@2.0.0
+920 silly decomposeActions test ansi-regex@2.0.0
+921 silly decomposeActions finalize ansi-regex@2.0.0
+922 silly decomposeActions fetch camelcase@2.1.0
+923 silly decomposeActions extract camelcase@2.1.0
+924 silly decomposeActions preinstall camelcase@2.1.0
+925 silly decomposeActions build camelcase@2.1.0
+926 silly decomposeActions install camelcase@2.1.0
+927 silly decomposeActions postinstall camelcase@2.1.0
+928 silly decomposeActions test camelcase@2.1.0
+929 silly decomposeActions finalize camelcase@2.1.0
+930 silly decomposeActions fetch colors@1.1.2
+931 silly decomposeActions extract colors@1.1.2
+932 silly decomposeActions preinstall colors@1.1.2
+933 silly decomposeActions build colors@1.1.2
+934 silly decomposeActions install colors@1.1.2
+935 silly decomposeActions postinstall colors@1.1.2
+936 silly decomposeActions test colors@1.1.2
+937 silly decomposeActions finalize colors@1.1.2
+938 silly decomposeActions fetch escape-string-regexp@1.0.4
+939 silly decomposeActions extract escape-string-regexp@1.0.4
+940 silly decomposeActions preinstall escape-string-regexp@1.0.4
+941 silly decomposeActions build escape-string-regexp@1.0.4
+942 silly decomposeActions install escape-string-regexp@1.0.4
+943 silly decomposeActions postinstall escape-string-regexp@1.0.4
+944 silly decomposeActions test escape-string-regexp@1.0.4
+945 silly decomposeActions finalize escape-string-regexp@1.0.4
+946 silly decomposeActions fetch decamelize@1.1.2
+947 silly decomposeActions extract decamelize@1.1.2
+948 silly decomposeActions preinstall decamelize@1.1.2
+949 silly decomposeActions build decamelize@1.1.2
+950 silly decomposeActions install decamelize@1.1.2
+951 silly decomposeActions postinstall decamelize@1.1.2
+952 silly decomposeActions test decamelize@1.1.2
+953 silly decomposeActions finalize decamelize@1.1.2
+954 silly decomposeActions fetch fs@0.0.2
+955 silly decomposeActions extract fs@0.0.2
+956 silly decomposeActions preinstall fs@0.0.2
+957 silly decomposeActions build fs@0.0.2
+958 silly decomposeActions install fs@0.0.2
+959 silly decomposeActions postinstall fs@0.0.2
+960 silly decomposeActions test fs@0.0.2
+961 silly decomposeActions finalize fs@0.0.2
+962 silly decomposeActions fetch invert-kv@1.0.0
+963 silly decomposeActions extract invert-kv@1.0.0
+964 silly decomposeActions preinstall invert-kv@1.0.0
+965 silly decomposeActions build invert-kv@1.0.0
+966 silly decomposeActions install invert-kv@1.0.0
+967 silly decomposeActions postinstall invert-kv@1.0.0
+968 silly decomposeActions test invert-kv@1.0.0
+969 silly decomposeActions finalize invert-kv@1.0.0
+970 silly decomposeActions fetch lcid@1.0.0
+971 silly decomposeActions extract lcid@1.0.0
+972 silly decomposeActions preinstall lcid@1.0.0
+973 silly decomposeActions build lcid@1.0.0
+974 silly decomposeActions install lcid@1.0.0
+975 silly decomposeActions postinstall lcid@1.0.0
+976 silly decomposeActions test lcid@1.0.0
+977 silly decomposeActions finalize lcid@1.0.0
+978 silly decomposeActions fetch ms@0.7.1
+979 silly decomposeActions extract ms@0.7.1
+980 silly decomposeActions preinstall ms@0.7.1
+981 silly decomposeActions build ms@0.7.1
+982 silly decomposeActions install ms@0.7.1
+983 silly decomposeActions postinstall ms@0.7.1
+984 silly decomposeActions test ms@0.7.1
+985 silly decomposeActions finalize ms@0.7.1
+986 silly decomposeActions fetch debug@2.2.0
+987 silly decomposeActions extract debug@2.2.0
+988 silly decomposeActions preinstall debug@2.2.0
+989 silly decomposeActions build debug@2.2.0
+990 silly decomposeActions install debug@2.2.0
+991 silly decomposeActions postinstall debug@2.2.0
+992 silly decomposeActions test debug@2.2.0
+993 silly decomposeActions finalize debug@2.2.0
+994 silly decomposeActions fetch number-is-nan@1.0.0
+995 silly decomposeActions extract number-is-nan@1.0.0
+996 silly decomposeActions preinstall number-is-nan@1.0.0
+997 silly decomposeActions build number-is-nan@1.0.0
+998 silly decomposeActions install number-is-nan@1.0.0
+999 silly decomposeActions postinstall number-is-nan@1.0.0
+1000 silly decomposeActions test number-is-nan@1.0.0
+1001 silly decomposeActions finalize number-is-nan@1.0.0
+1002 silly decomposeActions fetch is-fullwidth-code-point@1.0.0
+1003 silly decomposeActions extract is-fullwidth-code-point@1.0.0
+1004 silly decomposeActions preinstall is-fullwidth-code-point@1.0.0
+1005 silly decomposeActions build is-fullwidth-code-point@1.0.0
+1006 silly decomposeActions install is-fullwidth-code-point@1.0.0
+1007 silly decomposeActions postinstall is-fullwidth-code-point@1.0.0
+1008 silly decomposeActions test is-fullwidth-code-point@1.0.0
+1009 silly decomposeActions finalize is-fullwidth-code-point@1.0.0
+1010 silly decomposeActions fetch code-point-at@1.0.0
+1011 silly decomposeActions extract code-point-at@1.0.0
+1012 silly decomposeActions preinstall code-point-at@1.0.0
+1013 silly decomposeActions build code-point-at@1.0.0
+1014 silly decomposeActions install code-point-at@1.0.0
+1015 silly decomposeActions postinstall code-point-at@1.0.0
+1016 silly decomposeActions test code-point-at@1.0.0
+1017 silly decomposeActions finalize code-point-at@1.0.0
+1018 silly decomposeActions fetch os-locale@1.4.0
+1019 silly decomposeActions extract os-locale@1.4.0
+1020 silly decomposeActions preinstall os-locale@1.4.0
+1021 silly decomposeActions build os-locale@1.4.0
+1022 silly decomposeActions install os-locale@1.4.0
+1023 silly decomposeActions postinstall os-locale@1.4.0
+1024 silly decomposeActions test os-locale@1.4.0
+1025 silly decomposeActions finalize os-locale@1.4.0
+1026 silly decomposeActions fetch stream-consume@0.1.0
+1027 silly decomposeActions extract stream-consume@0.1.0
+1028 silly decomposeActions preinstall stream-consume@0.1.0
+1029 silly decomposeActions build stream-consume@0.1.0
+1030 silly decomposeActions install stream-consume@0.1.0
+1031 silly decomposeActions postinstall stream-consume@0.1.0
+1032 silly decomposeActions test stream-consume@0.1.0
+1033 silly decomposeActions finalize stream-consume@0.1.0
+1034 silly decomposeActions fetch follow-redirects@0.0.7
+1035 silly decomposeActions extract follow-redirects@0.0.7
+1036 silly decomposeActions preinstall follow-redirects@0.0.7
+1037 silly decomposeActions build follow-redirects@0.0.7
+1038 silly decomposeActions install follow-redirects@0.0.7
+1039 silly decomposeActions postinstall follow-redirects@0.0.7
+1040 silly decomposeActions test follow-redirects@0.0.7
+1041 silly decomposeActions finalize follow-redirects@0.0.7
+1042 silly decomposeActions fetch strip-ansi@3.0.0
+1043 silly decomposeActions extract strip-ansi@3.0.0
+1044 silly decomposeActions preinstall strip-ansi@3.0.0
+1045 silly decomposeActions build strip-ansi@3.0.0
+1046 silly decomposeActions install strip-ansi@3.0.0
+1047 silly decomposeActions postinstall strip-ansi@3.0.0
+1048 silly decomposeActions test strip-ansi@3.0.0
+1049 silly decomposeActions finalize strip-ansi@3.0.0
+1050 silly decomposeActions fetch string-width@1.0.1
+1051 silly decomposeActions extract string-width@1.0.1
+1052 silly decomposeActions preinstall string-width@1.0.1
+1053 silly decomposeActions build string-width@1.0.1
+1054 silly decomposeActions install string-width@1.0.1
+1055 silly decomposeActions postinstall string-width@1.0.1
+1056 silly decomposeActions test string-width@1.0.1
+1057 silly decomposeActions finalize string-width@1.0.1
+1058 silly decomposeActions fetch window-size@0.1.4
+1059 silly decomposeActions extract window-size@0.1.4
+1060 silly decomposeActions preinstall window-size@0.1.4
+1061 silly decomposeActions build window-size@0.1.4
+1062 silly decomposeActions install window-size@0.1.4
+1063 silly decomposeActions postinstall window-size@0.1.4
+1064 silly decomposeActions test window-size@0.1.4
+1065 silly decomposeActions finalize window-size@0.1.4
+1066 silly decomposeActions fetch wrap-ansi@1.0.0
+1067 silly decomposeActions extract wrap-ansi@1.0.0
+1068 silly decomposeActions preinstall wrap-ansi@1.0.0
+1069 silly decomposeActions build wrap-ansi@1.0.0
+1070 silly decomposeActions install wrap-ansi@1.0.0
+1071 silly decomposeActions postinstall wrap-ansi@1.0.0
+1072 silly decomposeActions test wrap-ansi@1.0.0
+1073 silly decomposeActions finalize wrap-ansi@1.0.0
+1074 silly decomposeActions fetch cliui@3.1.0
+1075 silly decomposeActions extract cliui@3.1.0
+1076 silly decomposeActions preinstall cliui@3.1.0
+1077 silly decomposeActions build cliui@3.1.0
+1078 silly decomposeActions install cliui@3.1.0
+1079 silly decomposeActions postinstall cliui@3.1.0
+1080 silly decomposeActions test cliui@3.1.0
+1081 silly decomposeActions finalize cliui@3.1.0
+1082 silly decomposeActions fetch y18n@3.2.0
+1083 silly decomposeActions extract y18n@3.2.0
+1084 silly decomposeActions preinstall y18n@3.2.0
+1085 silly decomposeActions build y18n@3.2.0
+1086 silly decomposeActions install y18n@3.2.0
+1087 silly decomposeActions postinstall y18n@3.2.0
+1088 silly decomposeActions test y18n@3.2.0
+1089 silly decomposeActions finalize y18n@3.2.0
+1090 silly decomposeActions fetch yargs@3.32.0
+1091 silly decomposeActions extract yargs@3.32.0
+1092 silly decomposeActions preinstall yargs@3.32.0
+1093 silly decomposeActions build yargs@3.32.0
+1094 silly decomposeActions install yargs@3.32.0
+1095 silly decomposeActions postinstall yargs@3.32.0
+1096 silly decomposeActions test yargs@3.32.0
+1097 silly decomposeActions finalize yargs@3.32.0
+1098 silly decomposeActions fetch insta-id-of@1.0.0
+1099 silly decomposeActions extract insta-id-of@1.0.0
+1100 silly decomposeActions preinstall insta-id-of@1.0.0
+1101 silly decomposeActions build insta-id-of@1.0.0
+1102 silly decomposeActions install insta-id-of@1.0.0
+1103 silly decomposeActions postinstall insta-id-of@1.0.0
+1104 silly decomposeActions test insta-id-of@1.0.0
+1105 silly decomposeActions finalize insta-id-of@1.0.0
+1106 silly executeActions Starting
+1107 silly install executeActions
+1108 silly doSerial global-install 0
+1109 silly doParallel fetch 24
+1110 verbose lock using /home/rishi/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+1111 silly doParallel extract 24
+1112 silly extract ansi-regex@2.0.0
+1113 silly extract camelcase@2.1.0
+1114 silly extract colors@1.1.2
+1115 silly extract escape-string-regexp@1.0.4
+1116 silly extract decamelize@1.1.2
+1117 silly extract fs@0.0.2
+1118 silly extract invert-kv@1.0.0
+1119 silly extract lcid@1.0.0
+1120 silly extract ms@0.7.1
+1121 silly extract debug@2.2.0
+1122 silly extract number-is-nan@1.0.0
+1123 silly extract is-fullwidth-code-point@1.0.0
+1124 silly extract code-point-at@1.0.0
+1125 silly extract os-locale@1.4.0
+1126 silly extract stream-consume@0.1.0
+1127 silly extract follow-redirects@0.0.7
+1128 silly extract strip-ansi@3.0.0
+1129 silly extract string-width@1.0.1
+1130 silly extract window-size@0.1.4
+1131 silly extract wrap-ansi@1.0.0
+1132 silly extract cliui@3.1.0
+1133 silly extract y18n@3.2.0
+1134 silly extract yargs@3.32.0
+1135 silly extract insta-id-of@1.0.0
+1136 verbose unbuild lib/node_modules/.staging/ansi-regex-e8bddd5eacfbc01c4deb25aa7c97fe53
+1137 verbose unbuild lib/node_modules/.staging/camelcase-c7225498a86e6f413b44372193e74321
+1138 verbose unbuild lib/node_modules/.staging/colors-31a89eb71b5e3ad1c7cdd1028f220d79
+1139 verbose unbuild lib/node_modules/.staging/decamelize-2b2b28165439c6a762371bab12aacec0
+1140 verbose unbuild lib/node_modules/.staging/escape-string-regexp-22848580ed029dd4d9b42df9d1629ae8
+1141 verbose unbuild lib/node_modules/.staging/fs-8bf055bd115fa3a390d9adaae8c8cab8
+1142 verbose unbuild lib/node_modules/.staging/lcid-ee13a3e7727832259eb9f62164fed8e4
+1143 verbose unbuild lib/node_modules/.staging/invert-kv-ca21418ebc40b1b5ad277af067551cb0
+1144 verbose unbuild lib/node_modules/.staging/ms-f01db9e7b21a0bbbf1a08edb253dfaad
+1145 verbose unbuild lib/node_modules/.staging/debug-f30f4862b0277e983bdf00bbebfb7527
+1146 verbose unbuild lib/node_modules/.staging/number-is-nan-a3ed95fbf59433c78cdeb2f73cf717e6
+1147 verbose unbuild lib/node_modules/.staging/is-fullwidth-code-point-13932055d118fc66ae495fb2611ad876
+1148 verbose unbuild lib/node_modules/.staging/code-point-at-b99d360de2cb56e7dfe625560f28ed5b
+1149 verbose unbuild lib/node_modules/.staging/os-locale-34a8a03169a5ced98edd9b60441c318c
+1150 verbose unbuild lib/node_modules/.staging/stream-consume-98ac579ac79355558eaf51c565129240
+1151 verbose unbuild lib/node_modules/.staging/follow-redirects-3452849efabbfceaadfd1b6b621ca53a
+1152 verbose unbuild lib/node_modules/.staging/strip-ansi-d10e6cf107f2484960c1a12fb58cf0b0
+1153 verbose unbuild lib/node_modules/.staging/string-width-f9291395d22141e36c41cf54e0a9c7a7
+1154 verbose unbuild lib/node_modules/.staging/wrap-ansi-2407f55a8381b4165584892352f8e878
+1155 verbose unbuild lib/node_modules/.staging/cliui-623dba4967570bbbac8a724e92d5ba27
+1156 verbose unbuild lib/node_modules/.staging/y18n-c6952451a224f22ac5d902858e60a28d
+1157 verbose unbuild lib/node_modules/.staging/yargs-68028494a03d957cd7ee9dd64a673604
+1158 verbose unbuild lib/node_modules/.staging/window-size-e10c5870922f56f93596655379ef51f2
+1159 verbose unbuild lib/node_modules/.staging/insta-id-of-afa5839d90b47214472ff86ffd1148e9
+1160 silly gentlyRm /usr/local/lib/node_modules/.staging/ansi-regex-e8bddd5eacfbc01c4deb25aa7c97fe53 is being purged from base /usr/local
+1161 silly gentlyRm /usr/local/lib/node_modules/.staging/camelcase-c7225498a86e6f413b44372193e74321 is being purged from base /usr/local
+1162 silly gentlyRm /usr/local/lib/node_modules/.staging/colors-31a89eb71b5e3ad1c7cdd1028f220d79 is being purged from base /usr/local
+1163 silly gentlyRm /usr/local/lib/node_modules/.staging/decamelize-2b2b28165439c6a762371bab12aacec0 is being purged from base /usr/local
+1164 silly gentlyRm /usr/local/lib/node_modules/.staging/escape-string-regexp-22848580ed029dd4d9b42df9d1629ae8 is being purged from base /usr/local
+1165 silly gentlyRm /usr/local/lib/node_modules/.staging/fs-8bf055bd115fa3a390d9adaae8c8cab8 is being purged from base /usr/local
+1166 silly gentlyRm /usr/local/lib/node_modules/.staging/lcid-ee13a3e7727832259eb9f62164fed8e4 is being purged from base /usr/local
+1167 silly gentlyRm /usr/local/lib/node_modules/.staging/invert-kv-ca21418ebc40b1b5ad277af067551cb0 is being purged from base /usr/local
+1168 silly gentlyRm /usr/local/lib/node_modules/.staging/ms-f01db9e7b21a0bbbf1a08edb253dfaad is being purged from base /usr/local
+1169 silly gentlyRm /usr/local/lib/node_modules/.staging/debug-f30f4862b0277e983bdf00bbebfb7527 is being purged from base /usr/local
+1170 silly gentlyRm /usr/local/lib/node_modules/.staging/number-is-nan-a3ed95fbf59433c78cdeb2f73cf717e6 is being purged from base /usr/local
+1171 silly gentlyRm /usr/local/lib/node_modules/.staging/is-fullwidth-code-point-13932055d118fc66ae495fb2611ad876 is being purged from base /usr/local
+1172 silly gentlyRm /usr/local/lib/node_modules/.staging/code-point-at-b99d360de2cb56e7dfe625560f28ed5b is being purged from base /usr/local
+1173 silly gentlyRm /usr/local/lib/node_modules/.staging/os-locale-34a8a03169a5ced98edd9b60441c318c is being purged from base /usr/local
+1174 silly gentlyRm /usr/local/lib/node_modules/.staging/stream-consume-98ac579ac79355558eaf51c565129240 is being purged from base /usr/local
+1175 silly gentlyRm /usr/local/lib/node_modules/.staging/follow-redirects-3452849efabbfceaadfd1b6b621ca53a is being purged from base /usr/local
+1176 silly gentlyRm /usr/local/lib/node_modules/.staging/strip-ansi-d10e6cf107f2484960c1a12fb58cf0b0 is being purged from base /usr/local
+1177 silly gentlyRm /usr/local/lib/node_modules/.staging/string-width-f9291395d22141e36c41cf54e0a9c7a7 is being purged from base /usr/local
+1178 silly gentlyRm /usr/local/lib/node_modules/.staging/wrap-ansi-2407f55a8381b4165584892352f8e878 is being purged from base /usr/local
+1179 silly gentlyRm /usr/local/lib/node_modules/.staging/cliui-623dba4967570bbbac8a724e92d5ba27 is being purged from base /usr/local
+1180 silly gentlyRm /usr/local/lib/node_modules/.staging/y18n-c6952451a224f22ac5d902858e60a28d is being purged from base /usr/local
+1181 silly gentlyRm /usr/local/lib/node_modules/.staging/yargs-68028494a03d957cd7ee9dd64a673604 is being purged from base /usr/local
+1182 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ansi-regex-e8bddd5eacfbc01c4deb25aa7c97fe53
+1183 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/camelcase-c7225498a86e6f413b44372193e74321
+1184 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/colors-31a89eb71b5e3ad1c7cdd1028f220d79
+1185 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/decamelize-2b2b28165439c6a762371bab12aacec0
+1186 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/escape-string-regexp-22848580ed029dd4d9b42df9d1629ae8
+1187 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/fs-8bf055bd115fa3a390d9adaae8c8cab8
+1188 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/lcid-ee13a3e7727832259eb9f62164fed8e4
+1189 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/invert-kv-ca21418ebc40b1b5ad277af067551cb0
+1190 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ms-f01db9e7b21a0bbbf1a08edb253dfaad
+1191 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/debug-f30f4862b0277e983bdf00bbebfb7527
+1192 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/number-is-nan-a3ed95fbf59433c78cdeb2f73cf717e6
+1193 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/is-fullwidth-code-point-13932055d118fc66ae495fb2611ad876
+1194 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/code-point-at-b99d360de2cb56e7dfe625560f28ed5b
+1195 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/os-locale-34a8a03169a5ced98edd9b60441c318c
+1196 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/stream-consume-98ac579ac79355558eaf51c565129240
+1197 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/follow-redirects-3452849efabbfceaadfd1b6b621ca53a
+1198 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/strip-ansi-d10e6cf107f2484960c1a12fb58cf0b0
+1199 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/string-width-f9291395d22141e36c41cf54e0a9c7a7
+1200 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/wrap-ansi-2407f55a8381b4165584892352f8e878
+1201 silly gentlyRm /usr/local/lib/node_modules/.staging/window-size-e10c5870922f56f93596655379ef51f2 is being purged from base /usr/local
+1202 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/cliui-623dba4967570bbbac8a724e92d5ba27
+1203 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/y18n-c6952451a224f22ac5d902858e60a28d
+1204 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/yargs-68028494a03d957cd7ee9dd64a673604
+1205 silly gentlyRm /usr/local/lib/node_modules/.staging/insta-id-of-afa5839d90b47214472ff86ffd1148e9 is being purged from base /usr/local
+1206 verbose tar unpack /home/rishi/.npm/ansi-regex/2.0.0/package.tgz
+1207 verbose tar unpacking to /usr/local/lib/node_modules/.staging/ansi-regex-e8bddd5eacfbc01c4deb25aa7c97fe53
+1208 silly gentlyRm /usr/local/lib/node_modules/.staging/ansi-regex-e8bddd5eacfbc01c4deb25aa7c97fe53 is being purged
+1209 verbose tar unpack /home/rishi/.npm/camelcase/2.1.0/package.tgz
+1210 verbose tar unpacking to /usr/local/lib/node_modules/.staging/camelcase-c7225498a86e6f413b44372193e74321
+1211 silly gentlyRm /usr/local/lib/node_modules/.staging/camelcase-c7225498a86e6f413b44372193e74321 is being purged
+1212 verbose tar unpack /home/rishi/.npm/colors/1.1.2/package.tgz
+1213 verbose tar unpacking to /usr/local/lib/node_modules/.staging/colors-31a89eb71b5e3ad1c7cdd1028f220d79
+1214 silly gentlyRm /usr/local/lib/node_modules/.staging/colors-31a89eb71b5e3ad1c7cdd1028f220d79 is being purged
+1215 verbose tar unpack /home/rishi/.npm/decamelize/1.1.2/package.tgz
+1216 verbose tar unpacking to /usr/local/lib/node_modules/.staging/decamelize-2b2b28165439c6a762371bab12aacec0
+1217 silly gentlyRm /usr/local/lib/node_modules/.staging/decamelize-2b2b28165439c6a762371bab12aacec0 is being purged
+1218 verbose tar unpack /home/rishi/.npm/escape-string-regexp/1.0.4/package.tgz
+1219 verbose tar unpacking to /usr/local/lib/node_modules/.staging/escape-string-regexp-22848580ed029dd4d9b42df9d1629ae8
+1220 silly gentlyRm /usr/local/lib/node_modules/.staging/escape-string-regexp-22848580ed029dd4d9b42df9d1629ae8 is being purged
+1221 verbose tar unpack /home/rishi/.npm/fs/0.0.2/package.tgz
+1222 verbose tar unpacking to /usr/local/lib/node_modules/.staging/fs-8bf055bd115fa3a390d9adaae8c8cab8
+1223 silly gentlyRm /usr/local/lib/node_modules/.staging/fs-8bf055bd115fa3a390d9adaae8c8cab8 is being purged
+1224 verbose tar unpack /home/rishi/.npm/lcid/1.0.0/package.tgz
+1225 verbose tar unpacking to /usr/local/lib/node_modules/.staging/lcid-ee13a3e7727832259eb9f62164fed8e4
+1226 silly gentlyRm /usr/local/lib/node_modules/.staging/lcid-ee13a3e7727832259eb9f62164fed8e4 is being purged
+1227 verbose tar unpack /home/rishi/.npm/invert-kv/1.0.0/package.tgz
+1228 verbose tar unpacking to /usr/local/lib/node_modules/.staging/invert-kv-ca21418ebc40b1b5ad277af067551cb0
+1229 silly gentlyRm /usr/local/lib/node_modules/.staging/invert-kv-ca21418ebc40b1b5ad277af067551cb0 is being purged
+1230 verbose tar unpack /home/rishi/.npm/ms/0.7.1/package.tgz
+1231 verbose tar unpacking to /usr/local/lib/node_modules/.staging/ms-f01db9e7b21a0bbbf1a08edb253dfaad
+1232 silly gentlyRm /usr/local/lib/node_modules/.staging/ms-f01db9e7b21a0bbbf1a08edb253dfaad is being purged
+1233 verbose tar unpack /home/rishi/.npm/debug/2.2.0/package.tgz
+1234 verbose tar unpacking to /usr/local/lib/node_modules/.staging/debug-f30f4862b0277e983bdf00bbebfb7527
+1235 silly gentlyRm /usr/local/lib/node_modules/.staging/debug-f30f4862b0277e983bdf00bbebfb7527 is being purged
+1236 verbose tar unpack /home/rishi/.npm/number-is-nan/1.0.0/package.tgz
+1237 verbose tar unpacking to /usr/local/lib/node_modules/.staging/number-is-nan-a3ed95fbf59433c78cdeb2f73cf717e6
+1238 silly gentlyRm /usr/local/lib/node_modules/.staging/number-is-nan-a3ed95fbf59433c78cdeb2f73cf717e6 is being purged
+1239 verbose tar unpack /home/rishi/.npm/is-fullwidth-code-point/1.0.0/package.tgz
+1240 verbose tar unpacking to /usr/local/lib/node_modules/.staging/is-fullwidth-code-point-13932055d118fc66ae495fb2611ad876
+1241 silly gentlyRm /usr/local/lib/node_modules/.staging/is-fullwidth-code-point-13932055d118fc66ae495fb2611ad876 is being purged
+1242 verbose tar unpack /home/rishi/.npm/code-point-at/1.0.0/package.tgz
+1243 verbose tar unpacking to /usr/local/lib/node_modules/.staging/code-point-at-b99d360de2cb56e7dfe625560f28ed5b
+1244 silly gentlyRm /usr/local/lib/node_modules/.staging/code-point-at-b99d360de2cb56e7dfe625560f28ed5b is being purged
+1245 verbose tar unpack /home/rishi/.npm/os-locale/1.4.0/package.tgz
+1246 verbose tar unpacking to /usr/local/lib/node_modules/.staging/os-locale-34a8a03169a5ced98edd9b60441c318c
+1247 silly gentlyRm /usr/local/lib/node_modules/.staging/os-locale-34a8a03169a5ced98edd9b60441c318c is being purged
+1248 verbose tar unpack /home/rishi/.npm/stream-consume/0.1.0/package.tgz
+1249 verbose tar unpacking to /usr/local/lib/node_modules/.staging/stream-consume-98ac579ac79355558eaf51c565129240
+1250 silly gentlyRm /usr/local/lib/node_modules/.staging/stream-consume-98ac579ac79355558eaf51c565129240 is being purged
+1251 verbose tar unpack /home/rishi/.npm/follow-redirects/0.0.7/package.tgz
+1252 verbose tar unpacking to /usr/local/lib/node_modules/.staging/follow-redirects-3452849efabbfceaadfd1b6b621ca53a
+1253 silly gentlyRm /usr/local/lib/node_modules/.staging/follow-redirects-3452849efabbfceaadfd1b6b621ca53a is being purged
+1254 verbose tar unpack /home/rishi/.npm/strip-ansi/3.0.0/package.tgz
+1255 verbose tar unpacking to /usr/local/lib/node_modules/.staging/strip-ansi-d10e6cf107f2484960c1a12fb58cf0b0
+1256 silly gentlyRm /usr/local/lib/node_modules/.staging/strip-ansi-d10e6cf107f2484960c1a12fb58cf0b0 is being purged
+1257 verbose tar unpack /home/rishi/.npm/string-width/1.0.1/package.tgz
+1258 verbose tar unpacking to /usr/local/lib/node_modules/.staging/string-width-f9291395d22141e36c41cf54e0a9c7a7
+1259 silly gentlyRm /usr/local/lib/node_modules/.staging/string-width-f9291395d22141e36c41cf54e0a9c7a7 is being purged
+1260 verbose tar unpack /home/rishi/.npm/wrap-ansi/1.0.0/package.tgz
+1261 verbose tar unpacking to /usr/local/lib/node_modules/.staging/wrap-ansi-2407f55a8381b4165584892352f8e878
+1262 silly gentlyRm /usr/local/lib/node_modules/.staging/wrap-ansi-2407f55a8381b4165584892352f8e878 is being purged
+1263 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/window-size-e10c5870922f56f93596655379ef51f2
+1264 verbose tar unpack /home/rishi/.npm/cliui/3.1.0/package.tgz
+1265 verbose tar unpacking to /usr/local/lib/node_modules/.staging/cliui-623dba4967570bbbac8a724e92d5ba27
+1266 silly gentlyRm /usr/local/lib/node_modules/.staging/cliui-623dba4967570bbbac8a724e92d5ba27 is being purged
+1267 verbose tar unpack /home/rishi/.npm/y18n/3.2.0/package.tgz
+1268 verbose tar unpacking to /usr/local/lib/node_modules/.staging/y18n-c6952451a224f22ac5d902858e60a28d
+1269 silly gentlyRm /usr/local/lib/node_modules/.staging/y18n-c6952451a224f22ac5d902858e60a28d is being purged
+1270 verbose tar unpack /home/rishi/.npm/yargs/3.32.0/package.tgz
+1271 verbose tar unpacking to /usr/local/lib/node_modules/.staging/yargs-68028494a03d957cd7ee9dd64a673604
+1272 silly gentlyRm /usr/local/lib/node_modules/.staging/yargs-68028494a03d957cd7ee9dd64a673604 is being purged
+1273 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/insta-id-of-afa5839d90b47214472ff86ffd1148e9
+1274 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ansi-regex-e8bddd5eacfbc01c4deb25aa7c97fe53
+1275 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/camelcase-c7225498a86e6f413b44372193e74321
+1276 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/colors-31a89eb71b5e3ad1c7cdd1028f220d79
+1277 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/decamelize-2b2b28165439c6a762371bab12aacec0
+1278 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/escape-string-regexp-22848580ed029dd4d9b42df9d1629ae8
+1279 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/fs-8bf055bd115fa3a390d9adaae8c8cab8
+1280 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/lcid-ee13a3e7727832259eb9f62164fed8e4
+1281 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/invert-kv-ca21418ebc40b1b5ad277af067551cb0
+1282 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ms-f01db9e7b21a0bbbf1a08edb253dfaad
+1283 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/debug-f30f4862b0277e983bdf00bbebfb7527
+1284 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/number-is-nan-a3ed95fbf59433c78cdeb2f73cf717e6
+1285 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/is-fullwidth-code-point-13932055d118fc66ae495fb2611ad876
+1286 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/code-point-at-b99d360de2cb56e7dfe625560f28ed5b
+1287 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/os-locale-34a8a03169a5ced98edd9b60441c318c
+1288 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/stream-consume-98ac579ac79355558eaf51c565129240
+1289 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/follow-redirects-3452849efabbfceaadfd1b6b621ca53a
+1290 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/strip-ansi-d10e6cf107f2484960c1a12fb58cf0b0
+1291 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/string-width-f9291395d22141e36c41cf54e0a9c7a7
+1292 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/wrap-ansi-2407f55a8381b4165584892352f8e878
+1293 verbose tar unpack /home/rishi/.npm/window-size/0.1.4/package.tgz
+1294 verbose tar unpacking to /usr/local/lib/node_modules/.staging/window-size-e10c5870922f56f93596655379ef51f2
+1295 silly gentlyRm /usr/local/lib/node_modules/.staging/window-size-e10c5870922f56f93596655379ef51f2 is being purged
+1296 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/cliui-623dba4967570bbbac8a724e92d5ba27
+1297 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/y18n-c6952451a224f22ac5d902858e60a28d
+1298 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/yargs-68028494a03d957cd7ee9dd64a673604
+1299 verbose tar unpack /home/rishi/.npm/insta-id-of/1.0.0/package.tgz
+1300 verbose tar unpacking to /usr/local/lib/node_modules/.staging/insta-id-of-afa5839d90b47214472ff86ffd1148e9
+1301 silly gentlyRm /usr/local/lib/node_modules/.staging/insta-id-of-afa5839d90b47214472ff86ffd1148e9 is being purged
+1302 silly gunzTarPerm modes [ '755', '644' ]
+1303 silly gunzTarPerm modes [ '755', '644' ]
+1304 silly gunzTarPerm modes [ '755', '644' ]
+1305 silly gunzTarPerm modes [ '755', '644' ]
+1306 silly gunzTarPerm modes [ '755', '644' ]
+1307 silly gunzTarPerm modes [ '755', '644' ]
+1308 silly gunzTarPerm modes [ '755', '644' ]
+1309 silly gunzTarPerm modes [ '755', '644' ]
+1310 silly gunzTarPerm modes [ '755', '644' ]
+1311 silly gunzTarPerm modes [ '755', '644' ]
+1312 silly gunzTarPerm modes [ '755', '644' ]
+1313 silly gunzTarPerm modes [ '755', '644' ]
+1314 silly gunzTarPerm modes [ '755', '644' ]
+1315 silly gunzTarPerm modes [ '755', '644' ]
+1316 silly gunzTarPerm modes [ '755', '644' ]
+1317 silly gunzTarPerm modes [ '755', '644' ]
+1318 silly gunzTarPerm modes [ '755', '644' ]
+1319 silly gunzTarPerm modes [ '755', '644' ]
+1320 silly gunzTarPerm modes [ '755', '644' ]
+1321 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/window-size-e10c5870922f56f93596655379ef51f2
+1322 silly gunzTarPerm modes [ '755', '644' ]
+1323 silly gunzTarPerm modes [ '755', '644' ]
+1324 silly gunzTarPerm modes [ '755', '644' ]
+1325 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/insta-id-of-afa5839d90b47214472ff86ffd1148e9
+1326 silly gunzTarPerm modes [ '755', '644' ]
+1327 silly gunzTarPerm modes [ '755', '644' ]
+1328 silly gunzTarPerm extractEntry package.json
+1329 silly gunzTarPerm extractEntry package.json
+1330 silly gunzTarPerm extractEntry package.json
+1331 silly gunzTarPerm extractEntry package.json
+1332 silly gunzTarPerm extractEntry package.json
+1333 silly gunzTarPerm extractEntry package.json
+1334 silly gunzTarPerm extractEntry package.json
+1335 silly gunzTarPerm extractEntry package.json
+1336 silly gunzTarPerm extractEntry package.json
+1337 silly gunzTarPerm extractEntry package.json
+1338 silly gunzTarPerm extractEntry package.json
+1339 silly gunzTarPerm extractEntry package.json
+1340 silly gunzTarPerm extractEntry package.json
+1341 silly gunzTarPerm extractEntry package.json
+1342 silly gunzTarPerm extractEntry package.json
+1343 silly gunzTarPerm extractEntry package.json
+1344 silly gunzTarPerm extractEntry package.json
+1345 silly gunzTarPerm extractEntry package.json
+1346 silly gunzTarPerm extractEntry package.json
+1347 silly gunzTarPerm extractEntry package.json
+1348 silly gunzTarPerm extractEntry package.json
+1349 silly gunzTarPerm extractEntry package.json
+1350 silly gunzTarPerm extractEntry package.json
+1351 silly gunzTarPerm extractEntry package.json
+1352 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1353 silly gunzTarPerm extractEntry index.js
+1354 silly gunzTarPerm extractEntry license
+1355 silly gunzTarPerm extractEntry index.js
+1356 silly gunzTarPerm extractEntry license
+1357 silly gunzTarPerm extractEntry LICENSE
+1358 silly gunzTarPerm extractEntry safe.js
+1359 silly gunzTarPerm extractEntry index.js
+1360 silly gunzTarPerm extractEntry index.js
+1361 silly gunzTarPerm extractEntry lcid.json
+1362 silly gunzTarPerm extractEntry index.js
+1363 silly gunzTarPerm extractEntry readme.md
+1364 silly gunzTarPerm extractEntry .npmignore
+1365 silly gunzTarPerm extractEntry README.md
+1366 silly gunzTarPerm extractEntry index.js
+1367 silly gunzTarPerm extractEntry license
+1368 silly gunzTarPerm extractEntry .npmignore
+1369 silly gunzTarPerm extractEntry node.js
+1370 silly gunzTarPerm extractEntry index.js
+1371 silly gunzTarPerm extractEntry license
+1372 silly gunzTarPerm extractEntry index.js
+1373 silly gunzTarPerm extractEntry license
+1374 silly gunzTarPerm extractEntry index.js
+1375 silly gunzTarPerm extractEntry license
+1376 silly gunzTarPerm extractEntry .npmignore
+1377 silly gunzTarPerm extractEntry README.md
+1378 silly gunzTarPerm extractEntry index.js
+1379 silly gunzTarPerm extractEntry license
+1380 silly gunzTarPerm extractEntry index.js
+1381 silly gunzTarPerm extractEntry license
+1382 silly gunzTarPerm extractEntry index.js
+1383 silly gunzTarPerm extractEntry license
+1384 silly gunzTarPerm extractEntry index.js
+1385 silly gunzTarPerm extractEntry license
+1386 silly gunzTarPerm extractEntry .npmignore
+1387 silly gunzTarPerm extractEntry README.md
+1388 silly gunzTarPerm extractEntry .npmignore
+1389 silly gunzTarPerm extractEntry README.md
+1390 silly gunzTarPerm extractEntry README.md
+1391 silly gunzTarPerm extractEntry LICENSE
+1392 silly gunzTarPerm extractEntry index.js
+1393 silly gunzTarPerm extractEntry license
+1394 silly gunzTarPerm extractEntry README.md
+1395 silly gunzTarPerm extractEntry create.js
+1396 silly gunzTarPerm extractEntry README.md
+1397 silly gunzTarPerm extractEntry LICENSE
+1398 silly gunzTarPerm extractEntry README.md
+1399 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+1400 silly gunzTarPerm extractEntry license
+1401 silly gunzTarPerm modified mode [ 'license', 438, 420 ]
+1402 silly gunzTarPerm extractEntry readme.md
+1403 silly gunzTarPerm extractEntry ReadMe.md
+1404 silly gunzTarPerm extractEntry examples/normal-usage.js
+1405 silly gunzTarPerm extractEntry license
+1406 silly gunzTarPerm extractEntry readme.md
+1407 silly gunzTarPerm extractEntry readme.md
+1408 silly gunzTarPerm extractEntry debug.js
+1409 silly gunzTarPerm extractEntry browser.js
+1410 silly gunzTarPerm extractEntry readme.md
+1411 silly gunzTarPerm extractEntry readme.md
+1412 silly gunzTarPerm extractEntry readme.md
+1413 silly gunzTarPerm extractEntry index.js
+1414 silly gunzTarPerm extractEntry test/tests.js
+1415 silly gunzTarPerm extractEntry readme.md
+1416 silly gunzTarPerm extractEntry readme.md
+1417 silly gunzTarPerm extractEntry readme.md
+1418 silly gunzTarPerm extractEntry readme.md
+1419 silly gunzTarPerm extractEntry index.js
+1420 silly gunzTarPerm extractEntry .travis.yml
+1421 silly gunzTarPerm extractEntry index.js
+1422 silly gunzTarPerm extractEntry .travis.yml
+1423 silly gunzTarPerm extractEntry index.js
+1424 silly gunzTarPerm extractEntry completion.sh.hbs
+1425 silly gunzTarPerm extractEntry CHANGELOG.md
+1426 silly gunzTarPerm extractEntry readme.md
+1427 silly gunzTarPerm extractEntry LICENSE
+1428 silly gunzTarPerm extractEntry index.js
+1429 silly gunzTarPerm extractEntry readme.md
+1430 silly gunzTarPerm extractEntry http.js
+1431 silly gunzTarPerm extractEntry https.js
+1432 silly gunzTarPerm extractEntry cli.js
+1433 silly gunzTarPerm extractEntry index.js
+1434 silly gunzTarPerm extractEntry lib/completion.js
+1435 silly gunzTarPerm extractEntry Readme.md
+1436 silly gunzTarPerm extractEntry test/y18n-test.js
+1437 silly gunzTarPerm extractEntry test/locales/bad-locale.json
+1438 silly gunzTarPerm extractEntry test/locales/en.json
+1439 silly gunzTarPerm extractEntry test/locales/pirate.json
+1440 silly gunzTarPerm extractEntry LICENSE.txt
+1441 silly gunzTarPerm extractEntry .coveralls.yml
+1442 silly gunzTarPerm extractEntry screenshot.png
+1443 silly gunzTarPerm extractEntry test/cliui.js
+1444 silly gunzTarPerm extractEntry History.md
+1445 silly gunzTarPerm extractEntry examples/safe-string.js
+1446 silly gunzTarPerm extractEntry lib/colors.js
+1447 silly gunzTarPerm extractEntry index.js
+1448 silly gunzTarPerm extractEntry lib/parser.js
+1449 silly gunzTarPerm extractEntry lib/tokenize-arg-string.js
+1450 silly gunzTarPerm extractEntry lib/extendStringPrototype.js
+1451 silly gunzTarPerm extractEntry bower.json
+1452 silly gunzTarPerm extractEntry .jshintrc
+1453 silly gunzTarPerm extractEntry lib/usage.js
+1454 silly gunzTarPerm extractEntry lib/validation.js
+1455 silly gunzTarPerm extractEntry lib/index.js
+1456 silly gunzTarPerm extractEntry lib/styles.js
+1457 silly gunzTarPerm extractEntry component.json
+1458 silly gunzTarPerm extractEntry Makefile
+1459 silly gunzTarPerm extractEntry locales/nb.json
+1460 silly gunzTarPerm extractEntry locales/de.json
+1461 silly gunzTarPerm extractEntry History.md
+1462 silly gunzTarPerm extractEntry lib/custom/trap.js
+1463 silly gunzTarPerm extractEntry lib/custom/zalgo.js
+1464 silly gunzTarPerm extractEntry locales/es.json
+1465 silly gunzTarPerm extractEntry locales/fr.json
+1466 silly gunzTarPerm extractEntry locales/id.json
+1467 silly gunzTarPerm extractEntry locales/ja.json
+1468 silly gunzTarPerm extractEntry locales/ko.json
+1469 silly gunzTarPerm extractEntry lib/maps/america.js
+1470 silly gunzTarPerm extractEntry lib/maps/rainbow.js
+1471 silly gunzTarPerm extractEntry locales/en.json
+1472 silly gunzTarPerm extractEntry locales/pirate.json
+1473 silly gunzTarPerm extractEntry lib/maps/random.js
+1474 silly gunzTarPerm extractEntry lib/maps/zebra.js
+1475 silly gunzTarPerm extractEntry locales/pl.json
+1476 silly gunzTarPerm extractEntry locales/pt.json
+1477 silly gunzTarPerm extractEntry lib/system/supports-colors.js
+1478 silly gunzTarPerm extractEntry themes/generic-logging.js
+1479 silly gunzTarPerm extractEntry locales/pt_BR.json
+1480 silly gunzTarPerm extractEntry locales/tr.json
+1481 silly gunzTarPerm extractEntry locales/zh.json
+1482 silly doParallel preinstall 24
+1483 silly preinstall ansi-regex@2.0.0 /usr/local/lib/node_modules/.staging/ansi-regex-e8bddd5eacfbc01c4deb25aa7c97fe53
+1484 info lifecycle ansi-regex@2.0.0~preinstall: ansi-regex@2.0.0
+1485 silly preinstall camelcase@2.1.0 /usr/local/lib/node_modules/.staging/camelcase-c7225498a86e6f413b44372193e74321
+1486 info lifecycle camelcase@2.1.0~preinstall: camelcase@2.1.0
+1487 silly preinstall colors@1.1.2 /usr/local/lib/node_modules/.staging/colors-31a89eb71b5e3ad1c7cdd1028f220d79
+1488 info lifecycle colors@1.1.2~preinstall: colors@1.1.2
+1489 silly preinstall escape-string-regexp@1.0.4 /usr/local/lib/node_modules/.staging/escape-string-regexp-22848580ed029dd4d9b42df9d1629ae8
+1490 info lifecycle escape-string-regexp@1.0.4~preinstall: escape-string-regexp@1.0.4
+1491 silly preinstall decamelize@1.1.2 /usr/local/lib/node_modules/.staging/decamelize-2b2b28165439c6a762371bab12aacec0
+1492 info lifecycle decamelize@1.1.2~preinstall: decamelize@1.1.2
+1493 silly preinstall fs@0.0.2 /usr/local/lib/node_modules/.staging/fs-8bf055bd115fa3a390d9adaae8c8cab8
+1494 info lifecycle fs@0.0.2~preinstall: fs@0.0.2
+1495 silly preinstall invert-kv@1.0.0 /usr/local/lib/node_modules/.staging/invert-kv-ca21418ebc40b1b5ad277af067551cb0
+1496 info lifecycle invert-kv@1.0.0~preinstall: invert-kv@1.0.0
+1497 silly preinstall lcid@1.0.0 /usr/local/lib/node_modules/.staging/lcid-ee13a3e7727832259eb9f62164fed8e4
+1498 info lifecycle lcid@1.0.0~preinstall: lcid@1.0.0
+1499 silly preinstall ms@0.7.1 /usr/local/lib/node_modules/.staging/ms-f01db9e7b21a0bbbf1a08edb253dfaad
+1500 info lifecycle ms@0.7.1~preinstall: ms@0.7.1
+1501 silly preinstall debug@2.2.0 /usr/local/lib/node_modules/.staging/debug-f30f4862b0277e983bdf00bbebfb7527
+1502 info lifecycle debug@2.2.0~preinstall: debug@2.2.0
+1503 silly preinstall number-is-nan@1.0.0 /usr/local/lib/node_modules/.staging/number-is-nan-a3ed95fbf59433c78cdeb2f73cf717e6
+1504 info lifecycle number-is-nan@1.0.0~preinstall: number-is-nan@1.0.0
+1505 silly preinstall is-fullwidth-code-point@1.0.0 /usr/local/lib/node_modules/.staging/is-fullwidth-code-point-13932055d118fc66ae495fb2611ad876
+1506 info lifecycle is-fullwidth-code-point@1.0.0~preinstall: is-fullwidth-code-point@1.0.0
+1507 silly preinstall code-point-at@1.0.0 /usr/local/lib/node_modules/.staging/code-point-at-b99d360de2cb56e7dfe625560f28ed5b
+1508 info lifecycle code-point-at@1.0.0~preinstall: code-point-at@1.0.0
+1509 silly preinstall os-locale@1.4.0 /usr/local/lib/node_modules/.staging/os-locale-34a8a03169a5ced98edd9b60441c318c
+1510 info lifecycle os-locale@1.4.0~preinstall: os-locale@1.4.0
+1511 silly preinstall stream-consume@0.1.0 /usr/local/lib/node_modules/.staging/stream-consume-98ac579ac79355558eaf51c565129240
+1512 info lifecycle stream-consume@0.1.0~preinstall: stream-consume@0.1.0
+1513 silly preinstall follow-redirects@0.0.7 /usr/local/lib/node_modules/.staging/follow-redirects-3452849efabbfceaadfd1b6b621ca53a
+1514 info lifecycle follow-redirects@0.0.7~preinstall: follow-redirects@0.0.7
+1515 silly preinstall strip-ansi@3.0.0 /usr/local/lib/node_modules/.staging/strip-ansi-d10e6cf107f2484960c1a12fb58cf0b0
+1516 info lifecycle strip-ansi@3.0.0~preinstall: strip-ansi@3.0.0
+1517 silly preinstall string-width@1.0.1 /usr/local/lib/node_modules/.staging/string-width-f9291395d22141e36c41cf54e0a9c7a7
+1518 info lifecycle string-width@1.0.1~preinstall: string-width@1.0.1
+1519 silly preinstall window-size@0.1.4 /usr/local/lib/node_modules/.staging/window-size-e10c5870922f56f93596655379ef51f2
+1520 info lifecycle window-size@0.1.4~preinstall: window-size@0.1.4
+1521 silly preinstall wrap-ansi@1.0.0 /usr/local/lib/node_modules/.staging/wrap-ansi-2407f55a8381b4165584892352f8e878
+1522 info lifecycle wrap-ansi@1.0.0~preinstall: wrap-ansi@1.0.0
+1523 silly preinstall cliui@3.1.0 /usr/local/lib/node_modules/.staging/cliui-623dba4967570bbbac8a724e92d5ba27
+1524 info lifecycle cliui@3.1.0~preinstall: cliui@3.1.0
+1525 silly preinstall y18n@3.2.0 /usr/local/lib/node_modules/.staging/y18n-c6952451a224f22ac5d902858e60a28d
+1526 info lifecycle y18n@3.2.0~preinstall: y18n@3.2.0
+1527 silly preinstall yargs@3.32.0 /usr/local/lib/node_modules/.staging/yargs-68028494a03d957cd7ee9dd64a673604
+1528 info lifecycle yargs@3.32.0~preinstall: yargs@3.32.0
+1529 silly preinstall insta-id-of@1.0.0 /usr/local/lib/node_modules/.staging/insta-id-of-afa5839d90b47214472ff86ffd1148e9
+1530 info lifecycle insta-id-of@1.0.0~preinstall: insta-id-of@1.0.0
+1531 silly lifecycle ansi-regex@2.0.0~preinstall: no script for preinstall, continuing
+1532 silly lifecycle camelcase@2.1.0~preinstall: no script for preinstall, continuing
+1533 silly lifecycle colors@1.1.2~preinstall: no script for preinstall, continuing
+1534 silly lifecycle escape-string-regexp@1.0.4~preinstall: no script for preinstall, continuing
+1535 silly lifecycle decamelize@1.1.2~preinstall: no script for preinstall, continuing
+1536 silly lifecycle fs@0.0.2~preinstall: no script for preinstall, continuing
+1537 silly lifecycle invert-kv@1.0.0~preinstall: no script for preinstall, continuing
+1538 silly lifecycle lcid@1.0.0~preinstall: no script for preinstall, continuing
+1539 silly lifecycle ms@0.7.1~preinstall: no script for preinstall, continuing
+1540 silly lifecycle debug@2.2.0~preinstall: no script for preinstall, continuing
+1541 silly lifecycle number-is-nan@1.0.0~preinstall: no script for preinstall, continuing
+1542 silly lifecycle is-fullwidth-code-point@1.0.0~preinstall: no script for preinstall, continuing
+1543 silly lifecycle code-point-at@1.0.0~preinstall: no script for preinstall, continuing
+1544 silly lifecycle os-locale@1.4.0~preinstall: no script for preinstall, continuing
+1545 silly lifecycle stream-consume@0.1.0~preinstall: no script for preinstall, continuing
+1546 silly lifecycle follow-redirects@0.0.7~preinstall: no script for preinstall, continuing
+1547 silly lifecycle strip-ansi@3.0.0~preinstall: no script for preinstall, continuing
+1548 silly lifecycle string-width@1.0.1~preinstall: no script for preinstall, continuing
+1549 silly lifecycle window-size@0.1.4~preinstall: no script for preinstall, continuing
+1550 silly lifecycle wrap-ansi@1.0.0~preinstall: no script for preinstall, continuing
+1551 silly lifecycle cliui@3.1.0~preinstall: no script for preinstall, continuing
+1552 silly lifecycle y18n@3.2.0~preinstall: no script for preinstall, continuing
+1553 silly lifecycle yargs@3.32.0~preinstall: no script for preinstall, continuing
+1554 silly lifecycle insta-id-of@1.0.0~preinstall: no script for preinstall, continuing
+1555 silly doReverseSerial remove 0
+1556 silly doSerial move 0
+1557 silly doSerial finalize 24
+1558 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/ansi-regex
+1559 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/camelcase
+1560 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/colors
+1561 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/escape-string-regexp
+1562 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/decamelize
+1563 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/fs
+1564 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/invert-kv
+1565 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/lcid
+1566 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/ms
+1567 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/debug
+1568 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/number-is-nan
+1569 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/is-fullwidth-code-point
+1570 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/code-point-at
+1571 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/os-locale
+1572 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/stream-consume
+1573 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/follow-redirects
+1574 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/strip-ansi
+1575 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/string-width
+1576 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/window-size
+1577 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/wrap-ansi
+1578 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/cliui
+1579 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/y18n
+1580 silly finalize /usr/local/lib/node_modules/insta-id-of/node_modules/yargs
+1581 silly finalize /usr/local/lib/node_modules/insta-id-of
+1582 silly doSerial build 24
+1583 silly build ansi-regex@2.0.0
+1584 info linkStuff ansi-regex@2.0.0
+1585 silly linkStuff ansi-regex@2.0.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1586 silly linkStuff ansi-regex@2.0.0 is part of a global install
+1587 silly linkStuff ansi-regex@2.0.0 is installed into a global node_modules
+1588 verbose linkBins ansi-regex@2.0.0
+1589 verbose linkMans ansi-regex@2.0.0
+1590 silly build camelcase@2.1.0
+1591 info linkStuff camelcase@2.1.0
+1592 silly linkStuff camelcase@2.1.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1593 silly linkStuff camelcase@2.1.0 is part of a global install
+1594 silly linkStuff camelcase@2.1.0 is installed into a global node_modules
+1595 verbose linkBins camelcase@2.1.0
+1596 verbose linkMans camelcase@2.1.0
+1597 silly build colors@1.1.2
+1598 info linkStuff colors@1.1.2
+1599 silly linkStuff colors@1.1.2 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1600 silly linkStuff colors@1.1.2 is part of a global install
+1601 silly linkStuff colors@1.1.2 is installed into a global node_modules
+1602 verbose linkBins colors@1.1.2
+1603 verbose linkMans colors@1.1.2
+1604 silly build escape-string-regexp@1.0.4
+1605 info linkStuff escape-string-regexp@1.0.4
+1606 silly linkStuff escape-string-regexp@1.0.4 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1607 silly linkStuff escape-string-regexp@1.0.4 is part of a global install
+1608 silly linkStuff escape-string-regexp@1.0.4 is installed into a global node_modules
+1609 verbose linkBins escape-string-regexp@1.0.4
+1610 verbose linkMans escape-string-regexp@1.0.4
+1611 silly build decamelize@1.1.2
+1612 info linkStuff decamelize@1.1.2
+1613 silly linkStuff decamelize@1.1.2 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1614 silly linkStuff decamelize@1.1.2 is part of a global install
+1615 silly linkStuff decamelize@1.1.2 is installed into a global node_modules
+1616 verbose linkBins decamelize@1.1.2
+1617 verbose linkMans decamelize@1.1.2
+1618 silly build fs@0.0.2
+1619 info linkStuff fs@0.0.2
+1620 silly linkStuff fs@0.0.2 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1621 silly linkStuff fs@0.0.2 is part of a global install
+1622 silly linkStuff fs@0.0.2 is installed into a global node_modules
+1623 verbose linkBins fs@0.0.2
+1624 verbose linkMans fs@0.0.2
+1625 silly build invert-kv@1.0.0
+1626 info linkStuff invert-kv@1.0.0
+1627 silly linkStuff invert-kv@1.0.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1628 silly linkStuff invert-kv@1.0.0 is part of a global install
+1629 silly linkStuff invert-kv@1.0.0 is installed into a global node_modules
+1630 verbose linkBins invert-kv@1.0.0
+1631 verbose linkMans invert-kv@1.0.0
+1632 silly build lcid@1.0.0
+1633 info linkStuff lcid@1.0.0
+1634 silly linkStuff lcid@1.0.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1635 silly linkStuff lcid@1.0.0 is part of a global install
+1636 silly linkStuff lcid@1.0.0 is installed into a global node_modules
+1637 verbose linkBins lcid@1.0.0
+1638 verbose linkMans lcid@1.0.0
+1639 silly build ms@0.7.1
+1640 info linkStuff ms@0.7.1
+1641 silly linkStuff ms@0.7.1 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1642 silly linkStuff ms@0.7.1 is part of a global install
+1643 silly linkStuff ms@0.7.1 is installed into a global node_modules
+1644 verbose linkBins ms@0.7.1
+1645 verbose linkMans ms@0.7.1
+1646 silly build debug@2.2.0
+1647 info linkStuff debug@2.2.0
+1648 silly linkStuff debug@2.2.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1649 silly linkStuff debug@2.2.0 is part of a global install
+1650 silly linkStuff debug@2.2.0 is installed into a global node_modules
+1651 verbose linkBins debug@2.2.0
+1652 verbose linkMans debug@2.2.0
+1653 silly build number-is-nan@1.0.0
+1654 info linkStuff number-is-nan@1.0.0
+1655 silly linkStuff number-is-nan@1.0.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1656 silly linkStuff number-is-nan@1.0.0 is part of a global install
+1657 silly linkStuff number-is-nan@1.0.0 is installed into a global node_modules
+1658 verbose linkBins number-is-nan@1.0.0
+1659 verbose linkMans number-is-nan@1.0.0
+1660 silly build is-fullwidth-code-point@1.0.0
+1661 info linkStuff is-fullwidth-code-point@1.0.0
+1662 silly linkStuff is-fullwidth-code-point@1.0.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1663 silly linkStuff is-fullwidth-code-point@1.0.0 is part of a global install
+1664 silly linkStuff is-fullwidth-code-point@1.0.0 is installed into a global node_modules
+1665 verbose linkBins is-fullwidth-code-point@1.0.0
+1666 verbose linkMans is-fullwidth-code-point@1.0.0
+1667 silly build code-point-at@1.0.0
+1668 info linkStuff code-point-at@1.0.0
+1669 silly linkStuff code-point-at@1.0.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1670 silly linkStuff code-point-at@1.0.0 is part of a global install
+1671 silly linkStuff code-point-at@1.0.0 is installed into a global node_modules
+1672 verbose linkBins code-point-at@1.0.0
+1673 verbose linkMans code-point-at@1.0.0
+1674 silly build os-locale@1.4.0
+1675 info linkStuff os-locale@1.4.0
+1676 silly linkStuff os-locale@1.4.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1677 silly linkStuff os-locale@1.4.0 is part of a global install
+1678 silly linkStuff os-locale@1.4.0 is installed into a global node_modules
+1679 verbose linkBins os-locale@1.4.0
+1680 verbose linkMans os-locale@1.4.0
+1681 silly build stream-consume@0.1.0
+1682 info linkStuff stream-consume@0.1.0
+1683 silly linkStuff stream-consume@0.1.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1684 silly linkStuff stream-consume@0.1.0 is part of a global install
+1685 silly linkStuff stream-consume@0.1.0 is installed into a global node_modules
+1686 verbose linkBins stream-consume@0.1.0
+1687 verbose linkMans stream-consume@0.1.0
+1688 silly build follow-redirects@0.0.7
+1689 info linkStuff follow-redirects@0.0.7
+1690 silly linkStuff follow-redirects@0.0.7 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1691 silly linkStuff follow-redirects@0.0.7 is part of a global install
+1692 silly linkStuff follow-redirects@0.0.7 is installed into a global node_modules
+1693 verbose linkBins follow-redirects@0.0.7
+1694 verbose linkMans follow-redirects@0.0.7
+1695 silly build strip-ansi@3.0.0
+1696 info linkStuff strip-ansi@3.0.0
+1697 silly linkStuff strip-ansi@3.0.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1698 silly linkStuff strip-ansi@3.0.0 is part of a global install
+1699 silly linkStuff strip-ansi@3.0.0 is installed into a global node_modules
+1700 verbose linkBins strip-ansi@3.0.0
+1701 verbose linkMans strip-ansi@3.0.0
+1702 silly build string-width@1.0.1
+1703 info linkStuff string-width@1.0.1
+1704 silly linkStuff string-width@1.0.1 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1705 silly linkStuff string-width@1.0.1 is part of a global install
+1706 silly linkStuff string-width@1.0.1 is installed into a global node_modules
+1707 verbose linkBins string-width@1.0.1
+1708 verbose linkMans string-width@1.0.1
+1709 silly build window-size@0.1.4
+1710 info linkStuff window-size@0.1.4
+1711 silly linkStuff window-size@0.1.4 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1712 silly linkStuff window-size@0.1.4 is part of a global install
+1713 silly linkStuff window-size@0.1.4 is installed into a global node_modules
+1714 verbose linkBins window-size@0.1.4
+1715 verbose link bins [ { 'window-size': 'cli.js' },
+1715 verbose link bins   '/usr/local/lib/node_modules/insta-id-of/node_modules/.bin',
+1715 verbose link bins   false ]
+1716 verbose linkMans window-size@0.1.4
+1717 silly gentlyRm /usr/local/lib/node_modules/insta-id-of/node_modules/.bin/window-size is being purged
+1718 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/insta-id-of/node_modules/.bin/window-size
+1719 silly build wrap-ansi@1.0.0
+1720 info linkStuff wrap-ansi@1.0.0
+1721 silly linkStuff wrap-ansi@1.0.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1722 silly linkStuff wrap-ansi@1.0.0 is part of a global install
+1723 silly linkStuff wrap-ansi@1.0.0 is installed into a global node_modules
+1724 verbose linkBins wrap-ansi@1.0.0
+1725 verbose linkMans wrap-ansi@1.0.0
+1726 silly build cliui@3.1.0
+1727 info linkStuff cliui@3.1.0
+1728 silly linkStuff cliui@3.1.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1729 silly linkStuff cliui@3.1.0 is part of a global install
+1730 silly linkStuff cliui@3.1.0 is installed into a global node_modules
+1731 verbose linkBins cliui@3.1.0
+1732 verbose linkMans cliui@3.1.0
+1733 silly build y18n@3.2.0
+1734 info linkStuff y18n@3.2.0
+1735 silly linkStuff y18n@3.2.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1736 silly linkStuff y18n@3.2.0 is part of a global install
+1737 silly linkStuff y18n@3.2.0 is installed into a global node_modules
+1738 verbose linkBins y18n@3.2.0
+1739 verbose linkMans y18n@3.2.0
+1740 silly build yargs@3.32.0
+1741 info linkStuff yargs@3.32.0
+1742 silly linkStuff yargs@3.32.0 has /usr/local/lib/node_modules/insta-id-of/node_modules as its parent node_modules
+1743 silly linkStuff yargs@3.32.0 is part of a global install
+1744 silly linkStuff yargs@3.32.0 is installed into a global node_modules
+1745 verbose linkBins yargs@3.32.0
+1746 verbose linkMans yargs@3.32.0
+1747 silly build insta-id-of@1.0.0
+1748 info linkStuff insta-id-of@1.0.0
+1749 silly linkStuff insta-id-of@1.0.0 has /usr/local/lib/node_modules as its parent node_modules
+1750 silly linkStuff insta-id-of@1.0.0 is part of a global install
+1751 silly linkStuff insta-id-of@1.0.0 is installed into a global node_modules
+1752 silly linkStuff insta-id-of@1.0.0 is installed into the top-level global node_modules
+1753 verbose linkBins insta-id-of@1.0.0
+1754 verbose link bins [ { 'insta-id-of': 'index.js' }, '/usr/local/bin', true ]
+1755 verbose linkMans insta-id-of@1.0.0
+1756 verbose unlock done using /home/rishi/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+1757 silly rollbackFailedOptional Starting
+1758 silly rollbackFailedOptional Finishing
+1759 silly runTopLevelLifecycles Starting
+1760 silly runTopLevelLifecycles Finishing
+1761 silly install printInstalled
+1762 verbose stack Error: ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/insta-id-of/index.js'
+1762 verbose stack     at Error (native)
+1763 verbose cwd /home/rishi/GIT/instagram-id-of
+1764 error Linux 3.19.0-25-generic
+1765 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--global" "insta-id-of"
+1766 error node v5.5.0
+1767 error npm  v3.3.12
+1768 error path /usr/local/lib/node_modules/insta-id-of/index.js
+1769 error code ENOENT
+1770 error errno -2
+1771 error syscall chmod
+1772 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/insta-id-of/index.js'
+1772 error enoent This is most likely not a problem with npm itself
+1772 error enoent and is related to npm not being able to find a file.
+1773 verbose exit [ -2, true ]
