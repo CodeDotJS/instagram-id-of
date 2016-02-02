@@ -31,7 +31,8 @@
   "dependencies": {
     "follow-redirects":"*",
     "yargs":"*",
-    "fs":"*"
+    "fs":"*",
+    "colors":"*"
   },
   "devDependencies": {
     "ava": "*",
