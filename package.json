@@ -1,15 +1,16 @@
 {
   "name": "insta-id-of",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shows userid of an instagram user in your console.",
   "license": "MIT",
-  "repository": "CodeDotJS/instagram-id-of",
-  "author": {
-    "name": "Rishi Giri",
-    "email": "rushforlinux@gmail.com",
-    "url": "rishigiri.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedotjs/instagram-id-of.git"
   },
-  "bin": "cli.js",
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
+  "bin": {
+    "insta-id-of": "cli.js"
+  },
   "engines": {
     "node": ">=4"
   },
@@ -29,9 +30,9 @@
     "userid"
   ],
   "dependencies": {
-    "follow-redirects":"*",
-    "yargs":"*",
-    "colors":"*"
+    "follow-redirects": "*",
+    "yargs": "*",
+    "colors": "*"
   },
   "devDependencies": {
     "ava": "*",
@@ -40,5 +41,11 @@
   },
   "xo": {
     "esnext": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/codedotjs/instagram-id-of/issues"
+  },
+  "homepage": "https://github.com/codedotjs/instagram-id-of#readme",
+  "main": "cli.js",
+  "readmeFilename": "README.md"
 }
