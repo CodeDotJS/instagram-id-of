@@ -1,5 +1,8 @@
+#!/usr/bin/env node
+
+'use strict';
+
 const https = require('follow-redirects').https;
-// const fs = require('fs');
 const colors = require('colors');
 
 colors.setTheme({
@@ -39,29 +42,25 @@ const req = https.request(options, function (res) {
 	} else {
 		console.log("\nStatus Code: ".error, "😥".info);
 	}
-		var store = "";
-		res.setEncoding('utf8');
-		res.on('data', function (d) {
-			store += d;
-		});
-    res.on('end', function () {
-        const rePattern = new RegExp(/id":"\d*/);
-        const arrMatches = store.match(rePattern);
-
-        if (arrMatches && arrMatches[0]) {
-            console.log('\n' + '--------------------------------'.info);
-            console.log('| '.info +
+	var store = '';
+	res.setEncoding('utf8');
+	res.on('data', function (d) {
+		store += d;
+	});
+	res.on('end', function () {
+		const rePattern = new RegExp(/id":"\d*/);
+		const arrMatches = store.match(rePattern);
+		if (arrMatches && arrMatches[0]) {
+			console.log('\n' + '--------------------------------'.info);
+			console.log('| '.info +
                 argv.u.replace('/', '').toUpperCase().toString().info +
                 "'s Insta ID is ".info + arrMatches[0].replace('id":"', '').toString().normal +
                 ' |'.info);
-
-            console.log('--------------------------------\n'.info);
-        } else {
-            console.log('\nSorry '.error +
-                argv.u.replace('/', '').toUpperCase().toString().info +
-                ' is not an Insta User.'.error + '\n');
-        }
-    });
+			console.log('--------------------------------\n'.info);
+		} else {
+			console.log('\nSorry '.error + argv.u.replace('/', '').toUpperCase().toString().info + ' is not an Insta User.'.error + '\n');
+		}
+	});
 });
 req.end();
 
