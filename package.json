@@ -1,6 +1,6 @@
 {
   "name": "insta-id-of",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Shows userid of an instagram user in your console.",
   "license": "MIT",
   "repository": "CodeDotJS/instagram-id-of",
@@ -9,7 +9,7 @@
     "email": "rushforlinux@gmail.com",
     "url": "rishigiri.com"
   },
-  "bin": "index.js",
+  "bin": "cli.js",
   "engines": {
     "node": ">=4"
   },
@@ -31,7 +31,6 @@
   "dependencies": {
     "follow-redirects":"*",
     "yargs":"*",
-    "fs":"*",
     "colors":"*"
   },
   "devDependencies": {
