@@ -21,12 +21,15 @@ $ insta-id-of -u '/user.name'
     Instagram Userid of 9GAG is : 259220806
 
 ```
+## Screenshot
+
+<img src="http://rishigiri.com/github/a.png" alt="">
+
+<img src="http://rishigiri.com/github/b.png" alt="">
 
 ## Related
 
-[Instagram UserID](http://github.com/CodeDotJS/)
-
-## Screenshot
+Python Version [Instagram UserID](https://github.com/CodeDotJS/Instagram-UserId)
 
 
 ## License
