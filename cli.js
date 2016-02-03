@@ -40,7 +40,7 @@ const req = https.request(options, function (res) {
 	if (res.statusCode === 200) {
 		console.log('\nStatus Code: '.info, '😀'.info); // res.statusCode
 	} else {
-		console.log("\nStatus Code: ".error, "😥".info);
+		console.log('\nStatus Code: '.error, '😥'.info);
 	}
 	var store = '';
 	res.setEncoding('utf8');
@@ -51,14 +51,12 @@ const req = https.request(options, function (res) {
 		const rePattern = new RegExp(/id":"\d*/);
 		const arrMatches = store.match(rePattern);
 		if (arrMatches && arrMatches[0]) {
-			console.log('\n' + '--------------------------------'.info);
-			console.log('| '.info +
+			console.log('\n| '.info +
                 argv.u.replace('/', '').toUpperCase().toString().info +
                 "'s Insta ID is ".info + arrMatches[0].replace('id":"', '').toString().normal +
-                ' |'.info);
-			console.log('--------------------------------\n'.info);
+                ' |\n'.info);
 		} else {
-			console.log('\nSorry '.error + argv.u.replace('/', '').toUpperCase().toString().info + ' is not an Insta User.'.error + '\n');
+			console.log('\nSorry '.error + argv.u.replace('/', '').toUpperCase().toString().info + ' is not an Insta User.\n'.error);
 		}
 	});
 });
