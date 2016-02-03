@@ -23,9 +23,7 @@ $ insta-id-of -u '/user.name'
 ```
 ## Screenshot
 
-<img src="http://rishigiri.com/github/a.png" alt="">
-
-<img src="http://rishigiri.com/github/b.png" alt="">
+<img src="http://rishigiri.com/github/unicorn.png" alt="">
 
 ## Related
 
