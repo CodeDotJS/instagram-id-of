@@ -11,7 +11,11 @@ $ npm install --global insta-id-of
 ## Usage
 
 ```
-$ insta-id-of -u '/user.name'
+$ insta-id-of -u [/user.name]
+
+Options:
+
+  -u  username of instagram user                                      [required]
 
   Usage
 
