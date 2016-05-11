@@ -1,6 +1,6 @@
 # instagram-id-of
 
-> Prints the userid of an instagram user on your console.
+> Find userid of an Instagram user, directly from command line.
 
 ## Install
 
@@ -11,27 +11,25 @@ $ npm install --global insta-id-of
 ## Usage
 
 ```
-$ insta-id-of -u [/user.name]
+$ insta-id-of
+	
+	Usage : cli.js -u [user.name]
 
 Options:
+	
+	-u    ❱    instagram username                        [required]
 
-  -u  username of instagram user                                      [required]
+Examples:
 
-  Usage
+	Usage : cli.js -u tjholowaychuk2
 
-    $ insta-id-of -u '/9gag'
-
-    Status Code : 200
-    Instagram Userid of 9GAG is : 259220806
+Missing required argument: u
 
 ```
-## Screenshot
-
-<img src="http://rishigiri.com/github/unicorn.png" alt="">
-
 ## Related
 
-Python Version [Instagram UserID](https://github.com/CodeDotJS/Instagram-UserId)
+- [Instagram UserID](https://github.com/CodeDotJS/Instagram-UserId) : Python script to find insta userid.
+- [Facebook-id-of](https://github.com/CodeDotJS/facebook-id-of) : Find userid of a facebook user.
 
 
 ## License
