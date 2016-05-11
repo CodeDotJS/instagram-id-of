@@ -29,7 +29,7 @@ Missing required argument: u
 
 ## Screenshot
 
-![insta-id-of](http://rishigiri.com/github/insta-id-of.png) 
+![insta-id-of](https://raw.githubusercontent.com/rishigiridotcom/rishigiri.com/c4623626cece6f5c7feb6c6ee0195519174f721c/github/insta-id-of.png) 
 
 ## Related
 
