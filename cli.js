@@ -3,24 +3,25 @@
 'use strict';
 
 const https = require('follow-redirects').https;
-const colors = require('colors');
 
-colors.setTheme({
-	error: ['red', 'bold']
-});
+const colors = require('colors/safe');
 
-colors.setTheme({
-	info: ['cyan', 'bold']
-});
+const updateNotifier = require('update-notifier');
 
-colors.setTheme({
-	normal: ['green', 'bold']
-});
+const pkg = require('./package.json');
+
+updateNotifier({pkg}).notify();
 
 const argv = require('yargs')
-    .usage('\nUsage : $0 -u [/user.name]'.info)
+
+    .usage(colors.cyan.bold('\n Usage : $0 -u [user.name]'))
+
     .demand(['u'])
-    .describe('u', 'username of instagram user')
+
+    .describe('u', '  ❱    instagram username')
+
+    .example('\nUsage : $0 -u tjholowaychuk2')
+
     .argv;
 
 const options = {
