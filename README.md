@@ -1,4 +1,4 @@
-# instagram-id-of
+# insta-id-of
 
 > Find userid of an Instagram user, directly from command line.
 
