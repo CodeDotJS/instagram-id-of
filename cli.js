@@ -85,12 +85,12 @@ const req = https.request(options, res => {
 	});
 
 	res.on('end', () => {
-		const rePattern = new RegExp(/id":"\d*/);
+		const rePattern = new RegExp(/id": "\d*/);
 
 		const arrMatches = store.match(rePattern);
 
 		if (arrMatches && arrMatches[0]) {
-			console.log(colors.cyan.bold('\n ❱ User ID         : '), colors.green.bold(arrMatches[0].replace('id":"', ''), '\n'));
+			console.log(colors.cyan.bold('\n ❱ User ID         : '), colors.green.bold(arrMatches[0].replace('id": "', ''), '\n'));
 		} else {
 			/* do nothing */
 		}
