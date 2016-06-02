@@ -33,8 +33,11 @@ Missing required argument: u
 
 ## Related
 
-- [Instagram UserID](https://github.com/CodeDotJS/Instagram-UserId) : Python script to find insta userid.
-- [Facebook-id-of](https://github.com/CodeDotJS/facebook-id-of) : Find userid of a facebook user.
+- [facebook-id-of](https://github.com/CodeDotJS/facebook-id-of) : Find userid of a facebook user.
+
+- [page-id-of](https://github.com/CodeDotJS/page-id-of) : Find page id of any facebook page.
+
+- [group-id-of](https://github.com/CodeDotJS/group-id-of) : Find group id of any facebook group.
 
 
 ## License
