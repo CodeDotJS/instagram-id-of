@@ -1,15 +1,13 @@
+import childProcess from 'child_process';
+
 import test from 'ava';
 
-import execa from 'execa';
-
-test(async t => {
-	let ret;
-
-	try {
-		ret = await execa('./cli.js');
-	} catch (err) {
-		ret = err.stderr;
-	}
-
-	t.true(/down|up/.test(ret));
+test.cb(t => {
+	childProcess.execFile('./cli.js', ['-u'], {
+		cwd: __dirname
+	}, (err, stdout) => {
+		t.ifError(err);
+		t.true(stdout === '\n ❱ Instagram User  :  ✔\n\n ❱ User ID         :  345375353 \n\n');
+		t.end();
+	});
 });
