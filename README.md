@@ -2,6 +2,8 @@
 
 > Find userid of an Instagram user, directly from command line.
 
+[![Build Status](https://travis-ci.org/CodeDotJS/instagram-id-of.svg?branch=master)](https://travis-ci.org/CodeDotJS/instagram-id-of)
+
 ## Install
 
 ```
