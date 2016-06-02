@@ -6,16 +6,16 @@ const dns = require('dns');
 const https = require('follow-redirects').https;
 const colors = require('colors/safe');
 
-const updateNotifier = require('update-notifier');
-const pkg = require('./package.json');
-updateNotifier({pkg}).notify();
-
 const argv = require('yargs')
     .usage(colors.cyan.bold('\n Usage : $0 -u [user.name]'))
     .demand(['u'])
     .describe('u', '  ❱    instagram username')
     .example('\nUsage : $0 -u tjholowaychuk2')
     .argv;
+
+const updateNotifier = require('update-notifier');
+const pkg = require('./package.json');
+updateNotifier({pkg}).notify();
 
 const userArgs = argv.u;
 const pathReq = `/${userArgs}`;
