@@ -63,7 +63,7 @@ const req = https.request(options, res => {
 		if (arrMatches && arrMatches[0]) {
 			console.log(colors.cyan.bold('\n ❱ User ID         : '), colors.green.bold(arrMatches[0].replace('id": "', ''), '\n'));
 		} else {
-			/* do nothing */
+			// nothing
 		}
 	});
 });
