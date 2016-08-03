@@ -1,37 +1,37 @@
-# insta-id-of
+# ![instagram-id-of](media/insta.png)
 
-> Find userid of an Instagram user, directly from command line.
+> Find User ID of any instagram user directly from command line
 
-[![Build Status](https://travis-ci.org/CodeDotJS/instagram-id-of.svg?branch=master)](https://travis-ci.org/CodeDotJS/instagram-id-of)
+<p align="center">
+	<br>
+	<img width="500px" src="media/insta.gif">
+	<br>
+	<a href="https://travis-ci.org/CodeDotJS/instagram-id-of">
+	<img src="https://travis-ci.org/CodeDotJS/instagram-id-of.svg?branch=master">
+	</a>
+	<br>
+</p>
 
 ## Install
 
 ```
-$ npm install --global insta-id-of
+$ [sudo] npm install --global insta-id-of
 ```
+
+__`Required Node.js version :`__ __`^4`__
 
 ## Usage
 
 ```
 $ insta-id-of
 	
-	Usage : cli.js -u [user.name]
+	Usage   : insta-id-of <username>
 
-Options:
-	
-	-u    ❱    instagram username                        [required]
+	Example : insta-id-of iama_rishi
 
-Examples:
-
-	Usage : cli.js -u tjholowaychuk2
-
-Missing required argument: u
+	Help    : insta-id-of -h --help
 
 ```
-
-## Screenshot
-
-![insta-id-of](https://raw.githubusercontent.com/rishigiridotcom/rishigiri.com/c4623626cece6f5c7feb6c6ee0195519174f721c/github/insta-id-of.png) 
 
 ## Related
 
