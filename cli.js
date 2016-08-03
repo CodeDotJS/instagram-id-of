@@ -4,20 +4,24 @@
 
 const dns = require('dns');
 const https = require('follow-redirects').https;
+const logUpdate = require('log-update');
 const colors = require('colors/safe');
-
-const argv = require('yargs')
-    .usage(colors.cyan.bold('\n Usage : $0 -u [user.name]'))
-    .demand(['u'])
-    .describe('u', '  ❱    instagram username')
-    .example('\nUsage : $0 -u tjholowaychuk2')
-    .argv;
-
 const updateNotifier = require('update-notifier');
 const pkg = require('./package.json');
-updateNotifier({pkg}).notify();
 
-const userArgs = argv.u;
+updateNotifier({pkg}).notify();
+const arg = process.argv[2];
+
+if (!arg || arg === '-h' || arg === '--help') {
+	console.log(`
+ ${colors.cyan('Usage   :')} insta-id-of ${colors.blue('<username>\n')}
+ ${colors.cyan('Example :')} insta-id-of ${colors.yellow('iama_rishi\n')}
+ ${colors.cyan('Help    :')} insta-id-of ${colors.green('-h')} ${colors.dim('--help')}
+ `);
+	process.exit(1);
+}
+
+const userArgs = arg;
 const pathReq = `/${userArgs}`;
 
 const options = {
@@ -34,19 +38,20 @@ const options = {
 	}
 };
 
-// reduced boilerplates
 dns.lookup('instagram.com', err => {
 	if (err && err.code === 'ENOTFOUND') {
-		console.log(colors.red.bold('\n ❱ Internet Connection   :   ✖\n'));
+		logUpdate(`\n${colors.red.bold('›')} Please check your internet connection`);
 		process.exit(1);
+	} else {
+		logUpdate(`\n${colors.cyan.bold('›')} ${colors.dim('Fetching User ID. Please wait!')}`);
 	}
 });
 
 const req = https.request(options, res => {
 	if (res.statusCode === 200) {
-		console.log(colors.cyan.bold('\n ❱ Instagram User  :  ✔'));
+		logUpdate(`${colors.cyan.bold('\n›')} ${colors.yellow(arg)} ${colors.dim(`is an Instagram user!`)}\n`);
 	} else {
-		console.log(colors.red.bold('\n ❱ Instagram User  :  ✖\n'));
+		logUpdate(`${colors.cyan.bold('\n›')} ${colors.dim(`Sorry "${arg}" is not an Instagram user!`)}\n`);
 		process.exit(1);
 	}
 	let store = '';
@@ -61,7 +66,7 @@ const req = https.request(options, res => {
 		const arrMatches = store.match(rePattern);
 
 		if (arrMatches && arrMatches[0]) {
-			console.log(colors.cyan.bold('\n ❱ User ID         : '), colors.green.bold(arrMatches[0].replace('id": "', ''), '\n'));
+			logUpdate(`\n${colors.cyan.bold('›')} ${colors.dim('Instagram ID of')} ${arg} ${colors.dim('is')} ${arrMatches[0].replace('id": "', '')}\n`);
 		} else {
 			// nothing
 		}

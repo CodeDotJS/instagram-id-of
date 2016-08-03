@@ -1,7 +1,7 @@
 {
   "name": "insta-id-of",
   "version": "1.1.10",
-  "description": "Shows userid of an instagram user in your console.",
+  "description": "Find User ID of any instagram user directly from command line",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -30,10 +30,11 @@
     "userid"
   ],
   "dependencies": {
+    "colors": "*",
     "follow-redirects": "*",
-    "yargs": "*",
+    "log-update": "^1.0.2",
     "update-notifier": "*",
-    "colors": "*"
+    "yargs": "*"
   },
   "devDependencies": {
     "ava": "*",
