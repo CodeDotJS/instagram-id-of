@@ -18,13 +18,11 @@
 $ [sudo] npm install --global insta-id-of
 ```
 
-__`Required Node.js version :`__ __`^4`__
-
 ## Usage
 
 ```
 $ insta-id-of
-	
+
 	Usage   : insta-id-of <username>
 
 	Example : insta-id-of iama_rishi
@@ -35,11 +33,11 @@ $ insta-id-of
 
 ## Related
 
-- [facebook-id-of](https://github.com/CodeDotJS/facebook-id-of) : Find userid of a facebook user.
+- __[`facebook-id-of`](https://github.com/CodeDotJS/facebook-id-of)__ `: Find userid of a facebook user.`
 
-- [page-id-of](https://github.com/CodeDotJS/page-id-of) : Find page id of any facebook page.
+- __[`page-id-of`](https://github.com/CodeDotJS/page-id-of)__ `: Find page id of any facebook page.`
 
-- [group-id-of](https://github.com/CodeDotJS/group-id-of) : Find group id of any facebook group.
+- __[`group-id-of`](https://github.com/CodeDotJS/group-id-of)__ `: Find group id of any facebook group.`
 
 
 ## License
