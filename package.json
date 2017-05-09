@@ -33,6 +33,7 @@
     "colors": "*",
     "follow-redirects": "*",
     "log-update": "^1.0.2",
+    "ora": "^1.2.0",
     "update-notifier": "*",
     "yargs": "*"
   },
