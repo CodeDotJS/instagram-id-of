@@ -30,12 +30,11 @@
     "userid"
   ],
   "dependencies": {
-    "colors": "*",
-    "follow-redirects": "*",
+    "chalk": "^2.3.2",
+    "got": "^8.3.0",
     "log-update": "^1.0.2",
     "ora": "^1.2.0",
-    "update-notifier": "*",
-    "yargs": "*"
+    "update-notifier": "*"
   },
   "devDependencies": {
     "ava": "*",
