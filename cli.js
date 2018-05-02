@@ -16,7 +16,7 @@ const arg = process.argv[2];
 const end = process.exit;
 const spinner = ora();
 
-const profile = `https://instagram.com/${arg}/?__a=1`;
+const profile = `https://instagram.com/${arg}`;
 
 if (!arg || arg === '-h' || arg === '--help') {
 	console.log(`
@@ -37,17 +37,16 @@ dns.lookup('instagram.com', err => {
 		logUpdate();
 		spinner.text = chalk.blue('Fetching...');
 		spinner.start();
-	}
-});
-
-got(profile, {json: true}).then(res => {
-	const userId = res.body.graphql.user.id;
-	const userName = res.body.graphql.user.full_name || arg;
-	logUpdate(`\n${chalk.cyan('›')} User ID of ${chalk.cyan(userName)} is ${chalk.yellow(userId)} \n`);
-	spinner.stop();
-}).catch(err => {
-	if (err) {
-		logUpdate(`\n${chalk.red('›')} ${chalk.yellow(arg)} is not an instagram user! \n`);
-		end(1);
+		got(profile).then(res => {
+			const userId = res.body.split(',"id":"')[1].split('",')[0];
+			const userName = res.body.split(',"full_name":"')[1].split('",')[0] || arg;
+			logUpdate(`\n${chalk.cyan('›')} User ID of ${chalk.cyan(userName)} is ${chalk.yellow(userId)} \n`);
+			spinner.stop();
+		}).catch(err => {
+			if (err) {
+				logUpdate(`\n${chalk.red('›')} ${chalk.yellow(arg)} is not an instagram user! \n`);
+				end(1);
+			}
+		});
 	}
 });
